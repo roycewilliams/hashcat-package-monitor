@@ -1,0 +1,210 @@
+# GitHub Actions Workflow for Hashcat Monitoring RSS Feed
+#
+# Purpose: Automated monitoring of Hashcat changes with RSS feed generation
+# Methodology:
+#   1. Runs on scheduled intervals using GitHub's cron scheduling
+#   2. Sets up Perl environment with required dependencies
+#   3. Executes monitoring script to detect changes
+#   4. Processes changes into RSS feed format
+#   5. Commits and deploys RSS feed via GitHub Pages
+#
+# Design choices:
+#   - Uses ubuntu-latest for broad compatibility
+#   - Caches Perl modules to speed up subsequent runs  
+#   - Stores state files in repository for persistence
+#   - Uses GitHub Pages for RSS feed hosting
+#   - Implements proper error handling and notifications
+
+name: Hashcat Monitor RSS Feed
+
+# Trigger conditions for the workflow
+on:
+  # Run every 6 hours to check for changes
+  schedule:
+    - cron: '0 */6 * * *'
+  
+  # Allow manual triggering for testing
+  workflow_dispatch:
+  
+  # Run on pushes to main branch (for testing)
+  push:
+    branches: [ main ]
+
+# Define environment variables available to all jobs
+env:
+  RSS_FILE: 'docs/hashcat-changes.xml'
+  STATE_FILE: 'hashcat_state.json'
+  CHANGES_FILE: 'latest_changes.txt'
+
+# Define the jobs that make up this workflow
+jobs:
+  monitor-and-update-rss:
+    # Use latest Ubuntu runner environment
+    runs-on: ubuntu-latest
+    
+    # Define permissions needed for this job
+    permissions:
+      contents: write      # Needed to commit changes to repository
+      pages: write        # Needed to deploy to GitHub Pages
+      id-token: write     # Needed for Pages deployment authentication
+    
+    steps:
+    # Step 1: Check out the repository code
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        # Fetch full history to maintain RSS feed history
+        fetch-depth: 0
+    
+    # Step 2: Set up Perl environment with required modules
+    - name: Setup Perl environment
+      uses: shogo82148/actions-setup-perl@v1
+      with:
+        perl-version: '5.38'   # Use recent stable Perl version
+    
+    # Step 3: Cache Perl modules to speed up subsequent runs
+    - name: Cache Perl modules
+      uses: actions/cache@v3
+      with:
+        path: ~/perl5
+        key: perl-modules-${{ runner.os }}-${{ hashFiles('cpanfile') }}
+        restore-keys: |
+          perl-modules-${{ runner.os }}-
+    
+    # Step 4: Install required Perl modules
+    - name: Install Perl dependencies
+      run: |
+        # Install cpanm package manager if not available
+        cpan App::cpanminus
+        
+        # Install required modules with verbose output for debugging
+        cpanm --verbose --notest HTTP::Tiny JSON::PP File::Slurp XML::RSS DateTime
+        
+        # Verify modules are installed correctly
+        perl -MHTTP::Tiny -MJSON::PP -MFile::Slurp -MXML::RSS -MDateTime -e 'print "All modules loaded successfully\n"'
+    
+    # Step 5: Create necessary directories for output files
+    - name: Setup directories
+      run: |
+        # Create docs directory for GitHub Pages if it doesn't exist
+        mkdir -p docs
+        
+        # Create logs directory for debugging information
+        mkdir -p logs
+        
+        # Set proper permissions
+        chmod 755 docs logs
+    
+    # Step 6: Run the Hashcat monitoring script
+    - name: Run Hashcat monitor
+      id: monitor
+      run: |
+        # Execute the monitoring script and capture output
+        echo "Running Hashcat monitoring script..."
+        
+        # Run script and capture both stdout and stderr
+        perl monitor_hashcat.pl 2>&1 | tee logs/monitor_output.txt
+        
+        # Check if changes were detected by looking for specific keywords
+        if grep -q "CHANGES DETECTED\|NEW PACKAGE\|REMOVED PACKAGE" logs/monitor_output.txt; then
+          echo "changes_detected=true" >> $GITHUB_OUTPUT
+          echo "Changes were detected!"
+          
+          # Extract just the changes for RSS processing
+          grep -A 1000 "Comparing with previous state" logs/monitor_output.txt > $CHANGES_FILE || echo "No comparison output found" > $CHANGES_FILE
+        else
+          echo "changes_detected=false" >> $GITHUB_OUTPUT
+          echo "No changes detected."
+          echo "No changes detected in this run." > $CHANGES_FILE
+        fi
+        
+        # Always save the output for debugging
+        cp logs/monitor_output.txt logs/monitor_$(date +%Y%m%d_%H%M%S).txt
+    
+    # Step 7: Generate/update RSS feed (runs regardless of changes for maintenance)
+    - name: Update RSS feed
+      run: |
+        echo "Updating RSS feed..."
+        perl update_rss.pl "$CHANGES_FILE" "$RSS_FILE"
+        
+        # Validate the generated RSS XML
+        if [ -f "$RSS_FILE" ]; then
+          # Basic XML validation
+          if xmllint --noout "$RSS_FILE" 2>/dev/null; then
+            echo "RSS feed XML is valid"
+          else
+            echo "Warning: RSS feed XML validation failed"
+          fi
+          
+          # Show RSS file size for monitoring
+          ls -la "$RSS_FILE"
+        else
+          echo "Error: RSS feed was not generated"
+          exit 1
+        fi
+    
+    # Step 8: Commit changes back to repository if any were made
+    - name: Commit changes
+      if: steps.monitor.outputs.changes_detected == 'true' || github.event_name == 'workflow_dispatch'
+      run: |
+        # Configure git with GitHub Actions bot credentials
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # Add all changed files
+        git add $RSS_FILE $STATE_FILE logs/ || true
+        
+        # Check if there are changes to commit
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          # Create commit with timestamp and change summary
+          TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S UTC')
+          if [ "${{ steps.monitor.outputs.changes_detected }}" == "true" ]; then
+            git commit -m "Update RSS feed: Changes detected at $TIMESTAMP"
+          else
+            git commit -m "Update RSS feed: Maintenance run at $TIMESTAMP"
+          fi
+          
+          # Push changes back to repository
+          git push
+        fi
+    
+    # Step 9: Setup GitHub Pages for RSS feed hosting
+    - name: Setup Pages
+      if: github.ref == 'refs/heads/main'
+      uses: actions/configure-pages@v4
+    
+    # Step 10: Upload RSS feed and related files to Pages
+    - name: Upload to GitHub Pages
+      if: github.ref == 'refs/heads/main'
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: 'docs/'
+    
+    # Step 11: Deploy to GitHub Pages
+    - name: Deploy to GitHub Pages  
+      if: github.ref == 'refs/heads/main'
+      id: deployment
+      uses: actions/deploy-pages@v4
+    
+    # Step 12: Post-deployment notifications and cleanup
+    - name: Post-run summary
+      if: always()  # Run this step even if previous steps failed
+      run: |
+        echo "=== Workflow Summary ==="
+        echo "Changes detected: ${{ steps.monitor.outputs.changes_detected }}"
+        echo "RSS feed location: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/hashcat-changes.xml"
+        echo "Logs location: logs/"
+        
+        # Display latest log entries for debugging
+        if [ -f logs/monitor_output.txt ]; then
+          echo "Latest monitor output:"
+          tail -20 logs/monitor_output.txt
+        fi
+        
+        # Show RSS feed status
+        if [ -f "$RSS_FILE" ]; then
+          echo "RSS feed updated successfully"
+          echo "Feed size: $(wc -l < $RSS_FILE) lines"
+        fi

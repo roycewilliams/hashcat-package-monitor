@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hashcat Repository Monitor RSS Feed</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f5f5f5; }
+        .container { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h1 { color: #333; border-bottom: 3px solid #e74c3c; padding-bottom: 10px; }
+        .rss-link { background: #e74c3c; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin: 10px 0; }
+        .rss-link:hover { background: #c0392b; }
+        .info-box { background: #ecf0f1; padding: 15px; border-left: 4px solid #3498db; margin: 20px 0; }
+        code { background: #f8f8f8; padding: 2px 6px; border-radius: 3px; font-family: 'Courier New', monospace; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔐 Hashcat Repository Monitor</h1>
+        
+        <p>This RSS feed provides automated monitoring of Hashcat package changes across multiple software repositories. Perfect for security professionals who need to stay updated on the latest Hashcat releases.</p>
+        
+        <a href="hashcat-changes.xml" class="rss-link">📡 Subscribe to RSS Feed</a>
+        
+        <div class="info-box">
+            <h3>What's Monitored</h3>
+            <ul>
+                <li><strong>Version</strong> - Package version numbers</li>
+                <li><strong>Original Version</strong> - Upstream version information</li>
+                <li><strong>Status</strong> - Package status (stable, testing, etc.)</li>
+            </ul>
+        </div>
+        
+        <div class="info-box">
+            <h3>How to Use</h3>
+            <p>Add this RSS feed URL to your favorite RSS reader:</p>
+            <code id="rss-url">https://[your-username].github.io/[your-repo-name]/hashcat-changes.xml</code>
+        </div>
+        
+        <div class="info-box">
+            <h3>Update Frequency</h3>
+            <p>This feed is automatically updated every 6 hours via GitHub Actions. Changes are detected by comparing with the Repology API data.</p>
+        </div>
+        
+        <h3>Recent Activity</h3>
+        <p>Check the <a href="hashcat-changes.xml">RSS feed</a> for the latest updates, or view the GitHub Actions logs for detailed monitoring information.</p>
+        
+        <footer style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; color: #666; text-align: center;">
+            <p>Powered by GitHub Actions | Data from <a href="https://repology.org">Repology.org</a></p>
+        </footer>
+    </div>
+
+    <script>
+        // Auto-update the RSS URL with current repository info
+        if (window.location.hostname.includes('github.io')) {
+            const parts = window.location.hostname.split('.');
+            const username = parts[0];
+            const repo = window.location.pathname.split('/')[1] || 'repo-name';
+            document.getElementById('rss-url').textContent = 
+                `https://${username}.github.io/${repo}/hashcat-changes.xml`;
+        }
+    </script>
+</body>
+</html>
