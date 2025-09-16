@@ -1,11 +1,11 @@
 #!/usr/bin/env perl
 
-# Hashcat API Monitor Script
+# Hashcat API Monitor Script - FIXED VERSION
 #
 # Purpose: Monitor the Repology API for changes in specific Hashcat project fields
 # Methodology:
 #   1. Fetch current API data using HTTP::Tiny (lightweight HTTP client)
-#   2. Parse JSON response to extract relevant fields from all repositories
+#   2. Parse JSON response (which returns an ARRAY of package objects)
 #   3. Compare with previously stored state from a local file
 #   4. Report any changes and update the stored state
 #
@@ -13,15 +13,17 @@
 #   - Uses HTTP::Tiny instead of LWP for minimal dependencies
 #   - JSON::PP is core Perl module for JSON parsing
 #   - File-based storage for simplicity and persistence
-#   - Flattens multi-repository data for easier comparison
+#   - Process array of package objects (not nested hash structure)
 #   - Human-readable output format for security monitoring use
+#
+# KEY FIX: API returns ARRAY of packages, not HASH with repo keys
 
 use strict;                    # Enforce strict variable declarations and references
 use warnings;                  # Enable all warning categories for better error detection
 use HTTP::Tiny;               # Lightweight HTTP client module
 use JSON::PP;                 # Pure Perl JSON parser/encoder (core module)
 use Data::Dumper;             # For debugging data structures if needed
-use File::Slurp;              # Simplified file reading/writing operations
+use Encode qw(decode encode);  # For proper UTF-8 handling (core module)
 
 # Configuration constants
 my $API_URL = 'https://repology.org/api/v1/project/hashcat';
@@ -39,7 +41,7 @@ sub main {
         die "Failed to fetch API data. Exiting.\n";
     }
 
-    # Extract only the fields we care about from all repositories
+    # Extract only the fields we care about from all packages
     my $current_filtered = extract_monitored_fields($current_data);
 
     # Load previous state if it exists
@@ -60,7 +62,7 @@ sub main {
 }
 
 # Fetch JSON data from the Repology API
-# Returns: hashref of parsed JSON data, or undef on failure
+# Returns: arrayref of parsed JSON data, or undef on failure
 sub fetch_api_data {
     print "Fetching data from API...\n";
 
@@ -87,42 +89,58 @@ sub fetch_api_data {
         return undef;
     }
 
+    # Verify we got an array as expected
+    if (!defined $data || ref($data) ne 'ARRAY') {
+        warn "Expected array from API, got: " . (ref($data) || 'scalar') . "\n";
+        return undef;
+    }
+
+    print "Retrieved " . scalar(@$data) . " package entries from API\n";
     return $data;
 }
 
-# Extract only the monitored fields from all repository entries
-# Input: hashref of full API data
-# Returns: hashref with repository names as keys, monitored fields as values
+# Extract only the monitored fields from all package entries
+# Input: arrayref of package objects from API
+# Returns: hashref with unique package IDs as keys, monitored fields as values
 sub extract_monitored_fields {
-    my ($data) = @_;
+    my ($packages) = @_;
     my $filtered = {};
 
-    # Iterate through each repository in the API response
-    # The API returns a hash where keys are repository names
-    foreach my $repo_name (keys %$data) {
-        my $repo_data = $data->{$repo_name};
+    # Return empty hash if no data provided (defensive programming)
+    return $filtered unless defined $packages && ref($packages) eq 'ARRAY';
 
-        # Skip if this isn't an array of packages (unexpected format)
-        next unless ref($repo_data) eq 'ARRAY';
+    print "Processing " . scalar(@$packages) . " packages...\n";
 
-        # Process each package entry in this repository
-        foreach my $package (@$repo_data) {
-            # Skip if package data isn't a hash (unexpected format)
-            next unless ref($package) eq 'HASH';
+    # Iterate through each package object in the array
+    foreach my $package (@$packages) {
+        # Skip if package data isn't a hash (unexpected format)
+        next unless defined $package && ref($package) eq 'HASH';
 
-            # Extract only the fields we're monitoring
-            my $filtered_package = {};
-            foreach my $field (@MONITORED_FIELDS) {
-                # Store field value, or 'N/A' if field doesn't exist
-                $filtered_package->{$field} = $package->{$field} // 'N/A';
-            }
-
-            # Create unique key combining repo name and package info for identification
-            my $package_id = $package->{repo} || $repo_name;
-            $filtered->{$package_id} = $filtered_package;
+        # Extract only the fields we're monitoring
+        my $filtered_package = {};
+        foreach my $field (@MONITORED_FIELDS) {
+            # Store field value, or 'N/A' if field doesn't exist
+            $filtered_package->{$field} = $package->{$field} // 'N/A';
         }
+
+        # Create unique package identifier
+        # Use repo + subrepo for uniqueness, as some distros have multiple subrepos
+        my $repo = $package->{repo} // 'unknown_repo';
+        my $subrepo = $package->{subrepo} // '';
+        
+        # Build package ID - include subrepo if it exists and differs from main repo
+        my $package_id;
+        if ($subrepo && $subrepo ne $repo) {
+            $package_id = "$repo/$subrepo";
+        } else {
+            $package_id = $repo;
+        }
+
+        # Store the filtered package data
+        $filtered->{$package_id} = $filtered_package;
     }
 
+    print "Extracted data for " . scalar(keys %$filtered) . " unique repositories\n";
     return $filtered;
 }
 
@@ -134,10 +152,19 @@ sub load_previous_state {
 
     print "Loading previous state...\n";
 
-    # Read entire file content into scalar
+    # Read entire file content into scalar using core Perl operations
     my $json_content;
     eval {
-        $json_content = read_file($STATE_FILE);
+        # Open file handle with proper error checking
+        open(my $fh, '<:encoding(UTF-8)', $STATE_FILE) 
+            or die "Cannot open $STATE_FILE for reading: $!";
+        
+        # Read entire file content (slurp mode)
+        local $/; # Disable input record separator to read entire file
+        $json_content = <$fh>;
+        
+        # Close file handle
+        close($fh) or warn "Cannot close $STATE_FILE: $!";
     };
     if ($@) {
         warn "Could not read state file: $@\n";
@@ -169,9 +196,17 @@ sub save_current_state {
     my $json = JSON::PP->new->pretty;
     my $json_content = $json->encode($current_data);
 
-    # Write JSON to state file
+    # Write JSON to state file using core Perl operations
     eval {
-        write_file($STATE_FILE, $json_content);
+        # Open file handle for writing with proper UTF-8 encoding
+        open(my $fh, '>:encoding(UTF-8)', $STATE_FILE) 
+            or die "Cannot open $STATE_FILE for writing: $!";
+        
+        # Write JSON content to file
+        print $fh $json_content;
+        
+        # Close file handle and check for errors
+        close($fh) or die "Cannot close $STATE_FILE: $!";
     };
     if ($@) {
         warn "Could not save state file: $@\n";
