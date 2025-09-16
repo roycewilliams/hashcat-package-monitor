@@ -1,4 +1,4 @@
-# Hashcat Repository Monitor
+# Hashcat Package Monitor
 
 Automated monitoring of Hashcat package changes across software repositories with RSS feed generation.
 
@@ -17,7 +17,7 @@ Once setup is complete, your RSS feed will be available at:
 ## 🔄 Features
 
 - **Automated Monitoring**: Runs every 6 hours via GitHub Actions
-- **RSS Feed Generation**: Auto-updates RSS feed with detected changes  
+- **RSS Feed Generation**: Auto-updates RSS feed with detected changes
 - **State Tracking**: Remembers previous states to detect actual changes
 - **Security Focus**: Monitors version, origversion, and status fields
 - **Zero Maintenance**: Runs completely automated once configured
