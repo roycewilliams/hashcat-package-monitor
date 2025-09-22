@@ -17,34 +17,34 @@
 <body>
     <div class="container">
         <h1>🔐 Hashcat Repository Monitor</h1>
-        
-        <p>This RSS feed provides automated monitoring of Hashcat package changes across multiple software repositories. Perfect for security professionals who need to stay updated on the latest Hashcat releases.</p>
-        
+
+        <p>This RSS feed provides automated monitoring of Hashcat package changes across multiple software repositories known to <a href="https://repology.org/">Repology</a>.</p>
+
         <a href="hashcat-changes.xml" class="rss-link">📡 Subscribe to RSS Feed</a>
-        
+
         <div class="info-box">
-            <h3>What's Monitored</h3>
+            <h3>What's monitored</h3>
             <ul>
                 <li><strong>Version</strong> - Package version numbers</li>
                 <li><strong>Original Version</strong> - Upstream version information</li>
                 <li><strong>Status</strong> - Package status (stable, testing, etc.)</li>
             </ul>
         </div>
-        
+
         <div class="info-box">
-            <h3>How to Use</h3>
+            <h3>How to use</h3>
             <p>Add this RSS feed URL to your favorite RSS reader:</p>
             <code id="rss-url">https://[your-username].github.io/[your-repo-name]/hashcat-changes.xml</code>
         </div>
-        
+
         <div class="info-box">
-            <h3>Update Frequency</h3>
+            <h3>Update frequency</h3>
             <p>This feed is automatically updated every 6 hours via GitHub Actions. Changes are detected by comparing with the Repology API data.</p>
         </div>
-        
-        <h3>Recent Activity</h3>
+
+        <h3>Recent activity</h3>
         <p>Check the <a href="hashcat-changes.xml">RSS feed</a> for the latest updates, or view the GitHub Actions logs for detailed monitoring information.</p>
-        
+
         <footer style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; color: #666; text-align: center;">
             <p>Powered by GitHub Actions | Data from <a href="https://repology.org">Repology.org</a></p>
         </footer>
@@ -56,7 +56,7 @@
             const parts = window.location.hostname.split('.');
             const username = parts[0];
             const repo = window.location.pathname.split('/')[1] || 'repo-name';
-            document.getElementById('rss-url').textContent = 
+            document.getElementById('rss-url').textContent =
                 `https://${username}.github.io/${repo}/hashcat-changes.xml`;
         }
     </script>
