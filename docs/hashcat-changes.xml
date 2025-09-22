@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+ xmlns:blogChannel="http://backend.userland.com/blogChannelModule"
+>
+
+<channel>
+<title>Hashcat Repository Monitor</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor</link>
+<description>Automated monitoring of Hashcat package changes across repositories</description>
+<language>en-us</language>
+<copyright>Public Domain</copyright>
+<pubDate>Mon, 22 Sep 2025 16:27:33 UTC</pubDate>
+<lastBuildDate>Mon, 22 Sep 2025 16:27:33 UTC</lastBuildDate>
+<managingEditor>security-monitor@github.com</managingEditor>
+<webMaster>security-monitor@github.com</webMaster>
+<category>Security Tools</category>
+<generator>Hashcat Monitor Script</generator>
+<ttl>360</ttl>
+
+</channel>
+</rss>

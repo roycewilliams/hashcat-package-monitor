@@ -1,0 +1,540 @@
+=== Hashcat Repository Monitor ===
+Monitoring fields: version, origversion, status
+
+Fetching data from API...
+Retrieved 100 package entries from API
+Processing 100 packages...
+Extracted data for 88 unique repositories
+No previous state found. Initializing monitoring...
+Current state:
+
+Package: alpine_edge/testing
+  version: 6.2.6
+  origversion: 6.2.6-r0
+  status: outdated
+
+
+Package: alt_p10
+  version: 6.2.6
+  origversion: 6.2.6-alt3
+  status: outdated
+
+
+Package: alt_p11
+  version: 6.2.6
+  origversion: 6.2.6-alt3
+  status: outdated
+
+
+Package: alt_p9
+  version: 2.00
+  origversion: 2.00-alt1
+  status: outdated
+
+
+Package: altsisyphus
+  version: 6.2.6
+  origversion: 6.2.6-alt3
+  status: outdated
+
+
+Package: aosc
+  version: 6.2.6
+  origversion: 6.2.6-1
+  status: outdated
+
+
+Package: arch/extra
+  version: 7.1.2
+  origversion: 1:7.1.2-1
+  status: newest
+
+
+Package: archlinuxarm_aarch64/community
+  version: 6.2.6
+  origversion: 1:6.2.6-1
+  status: outdated
+
+
+Package: archlinuxarm_aarch64/extra
+  version: 6.2.6
+  origversion: 1:6.2.6-2
+  status: outdated
+
+
+Package: aur
+  version: 5.0.0
+  origversion: 5.0.0+52+g2aff01b2-1
+  status: rolling
+
+
+Package: chimera/user
+  version: 6.2.6
+  origversion: 6.2.6-r0
+  status: outdated
+
+
+Package: chocolatey
+  version: 6.2.6
+  origversion: N/A
+  status: outdated
+
+
+Package: debian_11/bullseye/main
+  version: 6.1.1
+  origversion: 6.1.1+ds1-1
+  status: outdated
+
+
+Package: debian_12/bookworm/main
+  version: 6.2.6
+  origversion: 6.2.6+ds1-1
+  status: outdated
+
+
+Package: debian_13/trixie/main
+  version: 6.2.6
+  origversion: 6.2.6+ds2-1
+  status: outdated
+
+
+Package: debian_14/forky/main
+  version: 6.2.6
+  origversion: 6.2.6+ds2-1
+  status: outdated
+
+
+Package: debian_experimental/experimental/main
+  version: 7.1.2
+  origversion: 7.1.2+ds1-1
+  status: newest
+
+
+Package: debian_unstable/sid/main
+  version: 6.2.6
+  origversion: 6.2.6+ds2-1
+  status: outdated
+
+
+Package: deepin_unstable/main
+  version: 5.1.0
+  origversion: 5.1.0+ds1-1
+  status: outdated
+
+
+Package: devuan_4_0/chimaera/main
+  version: 6.1.1
+  origversion: 6.1.1+ds1-1
+  status: outdated
+
+
+Package: devuan_unstable/unstable/main
+  version: 6.2.6
+  origversion: 6.2.6+ds2-1
+  status: outdated
+
+
+Package: fedora_37/release
+  version: 6.2.6
+  origversion: 6.2.6-1.fc37
+  status: outdated
+
+
+Package: fedora_38/release
+  version: 6.2.6
+  origversion: 6.2.6-2.fc38
+  status: outdated
+
+
+Package: fedora_39/release
+  version: 6.2.6
+  origversion: 6.2.6-3.fc39
+  status: outdated
+
+
+Package: fedora_40/release
+  version: 6.2.6
+  origversion: 6.2.6-6.fc40
+  status: outdated
+
+
+Package: fedora_41/release
+  version: 6.2.6
+  origversion: 6.2.6-7.fc41
+  status: outdated
+
+
+Package: fedora_42/release
+  version: 6.2.6
+  origversion: 6.2.6-12.fc42
+  status: outdated
+
+
+Package: fedora_rawhide/development
+  version: 6.2.6
+  origversion: 6.2.6-13.fc43
+  status: outdated
+
+
+Package: freebsd
+  version: 7.1.2
+  origversion: 7.1.2_1,1
+  status: newest
+
+
+Package: gentoo
+  version: 7.1.2
+  origversion: N/A
+  status: newest
+
+
+Package: gnuguix
+  version: 6.2.6
+  origversion: N/A
+  status: outdated
+
+
+Package: homebrew
+  version: HEAD
+  origversion: N/A
+  status: rolling
+
+
+Package: kali_rolling/main
+  version: 6.2.6
+  origversion: 6.2.6+ds2-1
+  status: outdated
+
+
+Package: liguros_develop
+  version: 6.2.6
+  origversion: 6.2.6-r1
+  status: legacy
+
+
+Package: liguros_stable
+  version: 7.1.2
+  origversion: N/A
+  status: newest
+
+
+Package: macports
+  version: 7.1.2
+  origversion: N/A
+  status: newest
+
+
+Package: manjaro_stable/extra
+  version: 7.1.2
+  origversion: 1:7.1.2-1
+  status: newest
+
+
+Package: manjaro_testing/extra
+  version: 7.1.2
+  origversion: 1:7.1.2-1
+  status: newest
+
+
+Package: manjaro_unstable/extra
+  version: 7.1.2
+  origversion: 1:7.1.2-1
+  status: newest
+
+
+Package: nix_stable_22_11
+  version: 6.2.6
+  origversion: N/A
+  status: outdated
+
+
+Package: nix_stable_23_05
+  version: 6.2.6
+  origversion: N/A
+  status: outdated
+
+
+Package: nix_stable_23_11
+  version: 6.2.6
+  origversion: N/A
+  status: outdated
+
+
+Package: nix_stable_24_05
+  version: 6.2.6
+  origversion: N/A
+  status: outdated
+
+
+Package: nix_stable_24_11
+  version: 6.2.6
+  origversion: N/A
+  status: outdated
+
+
+Package: nix_stable_25_05
+  version: 6.2.6
+  origversion: N/A
+  status: outdated
+
+
+Package: nix_unstable
+  version: 7.1.2
+  origversion: N/A
+  status: newest
+
+
+Package: openmandriva_4_3/unsupported/release
+  version: 5.1.0
+  origversion: 5.1.0-1
+  status: outdated
+
+
+Package: openmandriva_5_0/unsupported/release
+  version: 5.1.0
+  origversion: 5.1.0-1
+  status: outdated
+
+
+Package: openmandriva_6_0/unsupported/release
+  version: 5.1.0
+  origversion: 5.1.0-1
+  status: outdated
+
+
+Package: openmandriva_cooker/unsupported/release
+  version: 5.1.0
+  origversion: 5.1.0-1
+  status: outdated
+
+
+Package: openmandriva_rolling/unsupported/release
+  version: 5.1.0
+  origversion: 5.1.0-1
+  status: outdated
+
+
+Package: openpkg_current
+  version: 6.0.0
+  origversion: N/A
+  status: outdated
+
+
+Package: opensuse_leap_15_4/main/oss
+  version: 6.2.1
+  origversion: 6.2.1-bp154.1.14
+  status: outdated
+
+
+Package: opensuse_leap_15_5/main/oss
+  version: 6.2.5
+  origversion: 6.2.5-bp155.1.7
+  status: outdated
+
+
+Package: opensuse_leap_15_6/main/oss
+  version: 6.2.6
+  origversion: 6.2.6-bp156.1.4
+  status: outdated
+
+
+Package: opensuse_security_tumbleweed
+  version: 7.1.2
+  origversion: 7.1.2-2.2
+  status: newest
+
+
+Package: opensuse_tumbleweed/src-oss
+  version: 7.1.2
+  origversion: 7.1.2-1.1
+  status: newest
+
+
+Package: parabola/extra
+  version: 7.1.2
+  origversion: 1:7.1.2-1
+  status: newest
+
+
+Package: pardus_21/main
+  version: 6.1.1
+  origversion: 6.1.1+ds1-1
+  status: outdated
+
+
+Package: parrot/parrot-updates/main
+  version: 6.2.6
+  origversion: 6.2.6+ds1-1
+  status: outdated
+
+
+Package: parrot/parrot/main
+  version: 6.2.6
+  origversion: 6.2.6+ds1-1
+  status: outdated
+
+
+Package: pclinuxos
+  version: 5.1.0
+  origversion: 5.1.0-1pclos2019
+  status: outdated
+
+
+Package: pkgsrc_current
+  version: 7.1.2
+  origversion: N/A
+  status: newest
+
+
+Package: pureos_amber/amber/main
+  version: 5.1.0
+  origversion: 5.1.0+ds1-1
+  status: outdated
+
+
+Package: pureos_byzantium/byzantium/main
+  version: 6.1.1
+  origversion: 6.1.1+ds1-1
+  status: outdated
+
+
+Package: pureos_landing/landing/main
+  version: 6.2.6
+  origversion: 6.2.6+ds2-1
+  status: outdated
+
+
+Package: raspbian_oldstable/main
+  version: 6.1.1
+  origversion: 6.1.1+ds1-1
+  status: outdated
+
+
+Package: raspbian_stable/main
+  version: 6.2.6
+  origversion: 6.2.6+ds1-1
+  status: outdated
+
+
+Package: raspbian_testing/main
+  version: 6.2.6
+  origversion: 6.2.6+ds2-1
+  status: outdated
+
+
+Package: rosa_13/contrib/release
+  version: 6.2.6
+  origversion: 6.2.6-1
+  status: outdated
+
+
+Package: rosa_2019_1/contrib/release
+  version: 6.2.6
+  origversion: 6.2.6-1
+  status: outdated
+
+
+Package: scoop/main
+  version: 7.1.2
+  origversion: N/A
+  status: newest
+
+
+Package: slackbuilds
+  version: 6.2.4
+  origversion: N/A
+  status: outdated
+
+
+Package: slitaz_cooking
+  version: 6.1.1
+  origversion: N/A
+  status: outdated
+
+
+Package: solus
+  version: 6.2.6
+  origversion: N/A
+  status: outdated
+
+
+Package: spack
+  version: 6.2.6
+  origversion: N/A
+  status: outdated
+
+
+Package: t2
+  version: 7.1.2
+  origversion: N/A
+  status: newest
+
+
+Package: trisquel_10_0/nabia/main
+  version: 5.1.0
+  origversion: 5.1.0+ds1-2
+  status: outdated
+
+
+Package: trisquel_11_0/aramo/main
+  version: 6.2.5
+  origversion: 6.2.5+ds1-2
+  status: outdated
+
+
+Package: tur
+  version: 6.2.6
+  origversion: N/A
+  status: outdated
+
+
+Package: ubuntu_18_04/bionic/universe
+  version: 4.0.1
+  origversion: 4.0.1-1
+  status: outdated
+
+
+Package: ubuntu_20_04/focal/universe
+  version: 5.1.0
+  origversion: 5.1.0+ds1-2
+  status: outdated
+
+
+Package: ubuntu_22_04/jammy/universe
+  version: 6.2.5
+  origversion: 6.2.5+ds1-2
+  status: outdated
+
+
+Package: ubuntu_24_04/noble/universe
+  version: 6.2.6
+  origversion: 6.2.6+ds1-1build2
+  status: outdated
+
+
+Package: ubuntu_25_04/plucky/universe
+  version: 6.2.6
+  origversion: 6.2.6+ds2-1
+  status: outdated
+
+
+Package: ubuntu_25_10/questing/universe
+  version: 6.2.6
+  origversion: 6.2.6+ds2-1
+  status: outdated
+
+
+Package: void_x86_64/x86_64
+  version: 6.2.6
+  origversion: 6.2.6_1
+  status: outdated
+
+
+Package: wikidata
+  version: 7.1.2
+  origversion: N/A
+  status: newest
+
+Saving current state...
+
+Monitoring complete.
