@@ -16,6 +16,8 @@
 #   - Includes security-relevant metadata and categories
 #   - Handles both incremental updates and feed initialization
 #   - Provides detailed item descriptions with change context
+#
+# Co-written with Google Gemini (1.5 Pro, 2025-09-22)
 
 use strict;                    # Enforce strict variable declarations
 use warnings;                  # Enable comprehensive warning system
@@ -35,8 +37,17 @@ my ($changes_file, $rss_file) = @ARGV;
 
 # Validate command line arguments
 if (!$changes_file || !$rss_file) {
-    die "Usage: $0 <changes_file> <rss_file>\n";
+    die "Usage: " . basename($0) . " <changes_file> <rss_file>\n";
 }
+
+# Add a function to get the basename of the command
+sub basename {
+    my $path = shift;
+    # On most Unix-like systems, the basename is the part of the path after the last '/'
+    # If there's no '/', the basename is the entire path.
+    return (my $base = $path) =~ s|.*/||r;
+}
+
 
 # Main execution flow
 sub main {
@@ -80,9 +91,11 @@ sub parse_changes_file {
     # Read the entire changes file
     my $content;
     eval {
+        # Using read_file to read the entire file content into a single string.
         $content = read_file($file_path);
     };
     if ($@) {
+        # If an error occurs during file reading, print a warning and return an empty array reference.
         warn "Could not read changes file '$file_path': $@\n";
         return \@changes;
     }
@@ -139,6 +152,7 @@ sub parse_changes_file {
         # Capture field changes (indented lines with field: old -> new format)
         elsif ($line =~ /^\s+(.+):\s+'(.+)'\s+->\s+'(.+)'$/ && $current_change) {
             my ($field, $old_val, $new_val) = ($1, $2, $3);
+            # Push a hash reference containing the field, old, and new values to the details array.
             push @{$current_change->{details}}, {
                 field => $field,
                 old_value => $old_val,
@@ -148,6 +162,7 @@ sub parse_changes_file {
         # Capture package information (indented field: value format)
         elsif ($line =~ /^\s+(.+):\s+(.+)$/ && $current_change) {
             my ($field, $value) = ($1, $2);
+            # Push a hash reference containing the field and its value to the details array.
             push @{$current_change->{details}}, {
                 field => $field,
                 value => $value
@@ -173,15 +188,18 @@ sub load_or_create_rss {
     if (-f $file_path) {
         print "Loading existing RSS feed...\n";
         eval {
+            # Attempt to parse the existing XML file.
             $rss->parsefile($file_path);
             print "Loaded existing feed with " . scalar(@{$rss->{items}}) . " items.\n";
         };
         if ($@) {
+            # If parsing fails, create a new feed. This handles corrupted or invalid files.
             warn "Could not parse existing RSS file, creating new feed: $@\n";
             $rss = create_new_rss_feed();
         }
     } else {
         print "Creating new RSS feed...\n";
+        # If the file does not exist, create a brand new feed.
         $rss = create_new_rss_feed();
     }
 
@@ -200,13 +218,22 @@ sub create_new_rss_feed {
         description => $FEED_DESCRIPTION,
         language => 'en-us',                    # RSS language code
         copyright => 'Public Domain',           # Copyright information
-        managingEditor => 'security-monitor@github.com',
-        webMaster => 'security-monitor@github.com',
+        managingEditor => 'royce@techsolvency.com (Royce Williams)',
+        webMaster => 'royce@techsolvency.com (Royce Williams)',
         category => 'Security Tools',           # RSS category
         generator => 'Hashcat Monitor Script',  # Generator identification
         ttl => 360,                            # Time to live (6 hours in minutes)
         lastBuildDate => DateTime->now->strftime('%a, %d %b %Y %H:%M:%S %Z'),
         pubDate => DateTime->now->strftime('%a, %d %b %Y %H:%M:%S %Z')
+    );
+
+    # Add the atom:link self-referencing element for W3C validation.
+    # Note: XML::RSS doesn't have a specific method for this, so we add a raw element.
+    # The module's `add_link` is a reasonable, albeit not precise, way to insert this.
+    $rss->add_link(
+        href => $rss_file,
+        rel => 'self',
+        type => 'application/rss+xml'
     );
 
     return $rss;
@@ -227,6 +254,7 @@ sub add_changes_to_rss {
         # Check if this change already exists in the feed
         my $exists = 0;
         foreach my $item (@{$rss->{items}}) {
+            # Use the GUID to check for item uniqueness, preventing duplicates.
             if ($item->{guid} && $item->{guid} eq $change_id) {
                 $exists = 1;
                 last;
@@ -291,7 +319,7 @@ sub build_change_description {
             if (exists $detail->{old_value} && exists $detail->{new_value}) {
                 # Field change format
                 $html .= "<li><strong>$detail->{field}:</strong> " .
-                        "<code>$detail->{old_value}</code> → " .
+                        "<code>$detail->{old_value}</code> &rarr; " .
                         "<code>$detail->{new_value}</code></li>";
             } elsif (exists $detail->{value}) {
                 # Field information format
@@ -408,7 +436,12 @@ sub save_rss_feed {
         # Generate RSS XML content
         my $rss_content = $rss->as_string;
 
+        # Replace the <rss> tag with one that includes the Atom namespace
+        # This is a string substitution because XML::RSS does not provide a direct method to add this attribute.
+        $rss_content =~ s|<rss version="2.0"|<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"|;
+
         # Write to file
+        # Using write_file to save the content to the specified file path.
         write_file($file_path, $rss_content);
     };
     if ($@) {
