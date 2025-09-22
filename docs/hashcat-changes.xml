@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <rss version="2.0"
+ xmlns:admin="http://webns.net/mvcb/"
  xmlns:blogChannel="http://backend.userland.com/blogChannelModule"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
 >
 
 <channel>
@@ -11,7 +16,7 @@
 <language>en-us</language>
 <copyright>Public Domain</copyright>
 <pubDate>Mon, 22 Sep 2025 16:27:33 UTC</pubDate>
-<lastBuildDate>Mon, 22 Sep 2025 16:27:33 UTC</lastBuildDate>
+<lastBuildDate>Mon, 22 Sep 2025 16:30:43 UTC</lastBuildDate>
 <managingEditor>security-monitor@github.com</managingEditor>
 <webMaster>security-monitor@github.com</webMaster>
 <category>Security Tools</category>
