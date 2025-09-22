@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-# Hashcat API Monitor Script - FIXED VERSION
+# Hashcat API Monitor Script - FIXED VERSION with Stable JSON Output
 #
 # Purpose: Monitor the Repology API for changes in specific Hashcat project fields
 # Methodology:
@@ -15,6 +15,7 @@
 #   - File-based storage for simplicity and persistence
 #   - Process array of package objects (not nested hash structure)
 #   - Human-readable output format for security monitoring use
+#   - JSON output is canonicalized (sorted) for stable diff comparisons
 #
 # KEY FIX: API returns ARRAY of packages, not HASH with repo keys
 
@@ -127,7 +128,7 @@ sub extract_monitored_fields {
         # Use repo + subrepo for uniqueness, as some distros have multiple subrepos
         my $repo = $package->{repo} // 'unknown_repo';
         my $subrepo = $package->{subrepo} // '';
-        
+
         # Build package ID - include subrepo if it exists and differs from main repo
         my $package_id;
         if ($subrepo && $subrepo ne $repo) {
@@ -156,13 +157,13 @@ sub load_previous_state {
     my $json_content;
     eval {
         # Open file handle with proper error checking
-        open(my $fh, '<:encoding(UTF-8)', $STATE_FILE) 
+        open(my $fh, '<:encoding(UTF-8)', $STATE_FILE)
             or die "Cannot open $STATE_FILE for reading: $!";
-        
+
         # Read entire file content (slurp mode)
         local $/; # Disable input record separator to read entire file
         $json_content = <$fh>;
-        
+
         # Close file handle
         close($fh) or warn "Cannot close $STATE_FILE: $!";
     };
@@ -192,19 +193,20 @@ sub save_current_state {
 
     print "Saving current state...\n";
 
-    # Convert data structure to pretty-printed JSON
-    my $json = JSON::PP->new->pretty;
+    # Convert data structure to pretty-printed, sorted JSON
+    # canonical() ensures hash keys are sorted for stable output over time
+    my $json = JSON::PP->new->pretty->canonical;
     my $json_content = $json->encode($current_data);
 
     # Write JSON to state file using core Perl operations
     eval {
         # Open file handle for writing with proper UTF-8 encoding
-        open(my $fh, '>:encoding(UTF-8)', $STATE_FILE) 
+        open(my $fh, '>:encoding(UTF-8)', $STATE_FILE)
             or die "Cannot open $STATE_FILE for writing: $!";
-        
+
         # Write JSON content to file
         print $fh $json_content;
-        
+
         # Close file handle and check for errors
         close($fh) or die "Cannot close $STATE_FILE: $!";
     };
@@ -298,3 +300,4 @@ sub print_current_state {
 
 # Execute main function
 main();
+
