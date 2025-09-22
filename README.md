@@ -1,6 +1,6 @@
 # Hashcat Package Monitor
 
-Automated monitoring of Hashcat package changes across software repositories with RSS feed generation.
+Automated monitoring of Hashcat package changes across software repositories (as monitored by Repology) with RSS feed generation.
 
 ## 🚀 Quick Start
 

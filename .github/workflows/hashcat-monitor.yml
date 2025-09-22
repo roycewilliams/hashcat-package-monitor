@@ -44,9 +44,13 @@ jobs:
     
     # Define permissions needed for this job
     permissions:
-      contents: write      # Needed to commit changes to repository
+      contents: write     # Needed to commit changes to repository
       pages: write        # Needed to deploy to GitHub Pages
       id-token: write     # Needed for Pages deployment authentication
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     
     steps:
     # Step 1: Check out the repository code
