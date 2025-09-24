@@ -31,5 +31,13 @@
 <guid isPermaLink="false">no-changes-item-static-guid</guid>
 <pubDate>Mon, 22 Sep 2025 17:49:02 UTC</pubDate>
 </item>
+<item>
+<title>Changes detected in package: gnuguix</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; gnuguix&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;em&#x3E;This change affects the Hashcat password recovery tool. Security professionals should review for potential impact on security assessments.&#x3C;/em&#x3E;&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">e430dbc5c0487dcff2eedbe77ac42bf3</guid>
+<pubDate>Wed, 24 Sep 2025 06:05:12 UTC</pubDate>
+</item>
 </channel>
 </rss>
