@@ -1,0 +1,22 @@
+=== Hashcat Repository Monitor ===
+Monitoring fields: version, origversion, status
+
+Fetching data from API...
+Retrieved 100 package entries from API
+Processing 100 packages...
+Extracted data for 88 unique repositories
+Loading previous state...
+Comparing with previous state...
+
+CHANGES in chocolatey:
+  version: '6.2.6' -> '7.1.2'
+  status: 'outdated' -> 'newest'
+
+CHANGES in homebrew:
+  version: 'HEAD' -> '7.1.2'
+  status: 'rolling' -> 'newest'
+
+*** CHANGES DETECTED ***
+Saving current state...
+
+Monitoring complete.

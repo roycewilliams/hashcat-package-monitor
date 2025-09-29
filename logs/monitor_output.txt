@@ -1,0 +1,23 @@
+=== Hashcat Repository Monitor ===
+Monitoring fields: version, origversion, status
+
+Fetching data from API...
+Retrieved 100 package entries from API
+Processing 100 packages...
+Extracted data for 88 unique repositories
+Loading previous state...
+Comparing with previous state...
+
+CHANGES in homebrew:
+  version: '7.1.2' -> 'HEAD'
+  status: 'newest' -> 'rolling'
+
+CHANGES in kali_rolling/main:
+  version: '6.2.6' -> '7.1.2'
+  origversion: '6.2.6+ds2-1' -> '7.1.2+ds1-1kali3'
+  status: 'outdated' -> 'newest'
+
+*** CHANGES DETECTED ***
+Saving current state...
+
+Monitoring complete.
