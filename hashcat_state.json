@@ -156,13 +156,13 @@
    },
    "homebrew" : {
       "origversion" : "N/A",
-      "status" : "newest",
-      "version" : "7.1.2"
+      "status" : "rolling",
+      "version" : "HEAD"
    },
    "kali_rolling/main" : {
-      "origversion" : "6.2.6+ds2-1",
-      "status" : "outdated",
-      "version" : "6.2.6"
+      "origversion" : "7.1.2+ds1-1kali3",
+      "status" : "newest",
+      "version" : "7.1.2"
    },
    "liguros_develop" : {
       "origversion" : "6.2.6-r1",
