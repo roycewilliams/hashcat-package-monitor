@@ -270,9 +270,13 @@ sub add_changes_to_rss {
         # Determine category based on change type
         my $category = get_change_category($change);
 
+        # Determine the new item title based on package, version, and type.
+        my $item_title = build_change_title($change);
+
         # Add item to RSS feed
         $rss->add_item(
-            title => $change->{description},
+            # The title is now constructed to include package and new version information.
+            title => $item_title,
             link => $FEED_LINK . '/actions',     # Link to GitHub Actions
             description => $description,
             pubDate => $now->strftime('%a, %d %b %Y %H:%M:%S %Z'),
@@ -280,8 +284,37 @@ sub add_changes_to_rss {
             category => $category                # Security-relevant category
         );
 
-        print "Added RSS item: $change->{description}\n";
+        print "Added RSS item: $item_title\n";
     }
+}
+
+# Build informative RSS item title
+# Format: "Package ([package name] [version number]): [repo name] change"
+# Input: change hashref
+# Returns: formatted string
+sub build_change_title {
+    my ($change) = @_;
+
+    # Default to the package name if version cannot be found
+    my $version = 'version unknown';
+
+    # Search for the new version in the change details
+    foreach my $detail (@{$change->{details}}) {
+        # Check both field changes (old -> new) and simple information (field: value)
+        if ($detail->{field} =~ /version/i) {
+            # Prioritize the new_value from a diff, otherwise use the simple value
+            $version = $detail->{new_value} || $detail->{value} || $version;
+            last; # Stop after finding the first version field
+        }
+    }
+
+    # Extract the base package name (e.g., hashcat from 'kali_rolling/main/hashcat')
+    my $package_base = $change->{package};
+    # Use the portion after the last '/' if present, otherwise use the whole string
+    $package_base =~ s|.*/||;
+
+    # Construct the final title string
+    return "Package ($package_base $version): $change->{package} change";
 }
 
 # Generate a unique ID for a change based on its content and timestamp
@@ -308,6 +341,7 @@ sub generate_change_id {
 sub build_change_description {
     my ($change) = @_;
 
+    # Start with package and change type, as before
     my $html = "<div><strong>Package:</strong> $change->{package}</div>";
     $html .= "<div><strong>Change Type:</strong> " . format_change_type($change->{type}) . "</div>";
 
@@ -317,12 +351,12 @@ sub build_change_description {
 
         foreach my $detail (@{$change->{details}}) {
             if (exists $detail->{old_value} && exists $detail->{new_value}) {
-                # Field change format
-                $html .= "<li><strong>$detail->{field}:</strong> " .
-                        "<code>$detail->{old_value}</code> &rarr; " .
-                        "<code>$detail->{new_value}</code></li>";
+                # Field change format, now focusing on the diff structure
+                $html .= "<li><strong>$detail->{field}</strong> change: <br>" .
+                        "&nbsp;&nbsp;&nbsp;Old $detail->{field}: <code>$detail->{old_value}</code><br>" .
+                        "&nbsp;&nbsp;&nbsp;New $detail->{field}: <code>$detail->{new_value}</code></li>";
             } elsif (exists $detail->{value}) {
-                # Field information format
+                # Field information format (for new/removed packages)
                 $html .= "<li><strong>$detail->{field}:</strong> <code>$detail->{value}</code></li>";
             }
         }
@@ -330,9 +364,7 @@ sub build_change_description {
         $html .= "</ul>";
     }
 
-    # Add security context
-    $html .= "<div><em>This change affects the Hashcat password recovery tool. " .
-             "Security professionals should review for potential impact on security assessments.</em></div>";
+    # The block containing the security context sentence is removed as requested.
 
     return $html;
 }

@@ -4,14 +4,29 @@
       "status" : "outdated",
       "version" : "6.2.6"
    },
-   "t2" : {
-      "version" : "7.1.2",
-      "status" : "newest",
-      "origversion" : "N/A"
-   },
-   "debian_unstable/sid/main" : {
+   "alt_p10" : {
+      "origversion" : "6.2.6-alt3",
       "status" : "outdated",
-      "origversion" : "6.2.6+ds2-1",
+      "version" : "6.2.6"
+   },
+   "alt_p11" : {
+      "origversion" : "6.2.6-alt3",
+      "status" : "outdated",
+      "version" : "6.2.6"
+   },
+   "alt_p9" : {
+      "origversion" : "2.00-alt1",
+      "status" : "outdated",
+      "version" : "2.00"
+   },
+   "altsisyphus" : {
+      "origversion" : "6.2.6-alt3",
+      "status" : "outdated",
+      "version" : "6.2.6"
+   },
+   "aosc" : {
+      "origversion" : "6.2.6-1",
+      "status" : "outdated",
       "version" : "6.2.6"
    },
    "arch/extra" : {
@@ -19,409 +34,84 @@
       "status" : "newest",
       "version" : "7.1.2"
    },
-   "void_x86_64/x86_64" : {
-      "version" : "6.2.6",
-      "origversion" : "6.2.6_1",
-      "status" : "outdated"
-   },
-   "opensuse_leap_15_4/main/oss" : {
-      "origversion" : "6.2.1-bp154.1.14",
-      "status" : "outdated",
-      "version" : "6.2.1"
-   },
-   "openmandriva_rolling/unsupported/release" : {
-      "status" : "outdated",
-      "origversion" : "5.1.0-1",
-      "version" : "5.1.0"
-   },
-   "devuan_unstable/unstable/main" : {
-      "status" : "outdated",
-      "origversion" : "6.2.6+ds2-1",
-      "version" : "6.2.6"
-   },
-   "ubuntu_24_04/noble/universe" : {
-      "version" : "6.2.6",
-      "origversion" : "6.2.6+ds1-1build2",
-      "status" : "outdated"
-   },
-   "freebsd" : {
-      "version" : "7.1.2",
-      "origversion" : "7.1.2_1,1",
-      "status" : "newest"
-   },
-   "fedora_37/release" : {
-      "origversion" : "6.2.6-1.fc37",
+   "archlinuxarm_aarch64/community" : {
+      "origversion" : "1:6.2.6-1",
       "status" : "outdated",
       "version" : "6.2.6"
    },
-   "opensuse_security_tumbleweed" : {
-      "status" : "newest",
-      "origversion" : "7.1.2-2.2",
-      "version" : "7.1.2"
-   },
-   "solus" : {
-      "version" : "6.2.6",
-      "origversion" : "N/A",
-      "status" : "outdated"
-   },
-   "opensuse_tumbleweed/src-oss" : {
-      "origversion" : "7.1.2-1.1",
-      "status" : "newest",
-      "version" : "7.1.2"
-   },
-   "liguros_develop" : {
-      "status" : "legacy",
-      "origversion" : "6.2.6-r1",
+   "archlinuxarm_aarch64/extra" : {
+      "origversion" : "1:6.2.6-2",
+      "status" : "outdated",
       "version" : "6.2.6"
-   },
-   "nix_stable_23_05" : {
-      "version" : "6.2.6",
-      "status" : "outdated",
-      "origversion" : "N/A"
-   },
-   "debian_11/bullseye/main" : {
-      "status" : "outdated",
-      "origversion" : "6.1.1+ds1-1",
-      "version" : "6.1.1"
    },
    "aur" : {
-      "version" : "5.0.0",
+      "origversion" : "5.0.0+52+g2aff01b2-1",
       "status" : "rolling",
-      "origversion" : "5.0.0+52+g2aff01b2-1"
-   },
-   "gentoo" : {
-      "status" : "newest",
-      "origversion" : "N/A",
-      "version" : "7.1.2"
-   },
-   "pclinuxos" : {
-      "version" : "5.1.0",
-      "status" : "outdated",
-      "origversion" : "5.1.0-1pclos2019"
-   },
-   "spack" : {
-      "version" : "6.2.6",
-      "status" : "outdated",
-      "origversion" : "N/A"
-   },
-   "ubuntu_22_04/jammy/universe" : {
-      "version" : "6.2.5",
-      "status" : "outdated",
-      "origversion" : "6.2.5+ds1-2"
-   },
-   "trisquel_11_0/aramo/main" : {
-      "version" : "6.2.5",
-      "status" : "outdated",
-      "origversion" : "6.2.5+ds1-2"
-   },
-   "nix_stable_25_05" : {
-      "origversion" : "N/A",
-      "status" : "outdated",
-      "version" : "6.2.6"
-   },
-   "openmandriva_cooker/unsupported/release" : {
-      "version" : "5.1.0",
-      "status" : "outdated",
-      "origversion" : "5.1.0-1"
-   },
-   "parabola/extra" : {
-      "origversion" : "1:7.1.2-1",
-      "status" : "newest",
-      "version" : "7.1.2"
-   },
-   "fedora_42/release" : {
-      "status" : "outdated",
-      "origversion" : "6.2.6-12.fc42",
-      "version" : "6.2.6"
-   },
-   "openpkg_current" : {
-      "origversion" : "N/A",
-      "status" : "outdated",
-      "version" : "6.0.0"
-   },
-   "nix_stable_23_11" : {
-      "version" : "6.2.6",
-      "origversion" : "N/A",
-      "status" : "outdated"
-   },
-   "rosa_13/contrib/release" : {
-      "status" : "outdated",
-      "origversion" : "6.2.6-1",
-      "version" : "6.2.6"
-   },
-   "fedora_40/release" : {
-      "origversion" : "6.2.6-6.fc40",
-      "status" : "outdated",
-      "version" : "6.2.6"
-   },
-   "liguros_stable" : {
-      "status" : "newest",
-      "origversion" : "N/A",
-      "version" : "7.1.2"
-   },
-   "debian_experimental/experimental/main" : {
-      "version" : "7.1.2",
-      "origversion" : "7.1.2+ds1-1",
-      "status" : "newest"
-   },
-   "raspbian_testing/main" : {
-      "version" : "6.2.6",
-      "origversion" : "6.2.6+ds2-1",
-      "status" : "outdated"
-   },
-   "ubuntu_25_04/plucky/universe" : {
-      "status" : "outdated",
-      "origversion" : "6.2.6+ds2-1",
-      "version" : "6.2.6"
-   },
-   "parrot/parrot/main" : {
-      "version" : "6.2.6",
-      "status" : "outdated",
-      "origversion" : "6.2.6+ds1-1"
-   },
-   "debian_14/forky/main" : {
-      "version" : "6.2.6",
-      "status" : "outdated",
-      "origversion" : "6.2.6+ds2-1"
-   },
-   "manjaro_unstable/extra" : {
-      "status" : "newest",
-      "origversion" : "1:7.1.2-1",
-      "version" : "7.1.2"
-   },
-   "opensuse_leap_15_6/main/oss" : {
-      "status" : "outdated",
-      "origversion" : "6.2.6-bp156.1.4",
-      "version" : "6.2.6"
-   },
-   "pkgsrc_current" : {
-      "origversion" : "N/A",
-      "status" : "newest",
-      "version" : "7.1.2"
-   },
-   "pureos_landing/landing/main" : {
-      "version" : "6.2.6",
-      "status" : "outdated",
-      "origversion" : "6.2.6+ds2-1"
-   },
-   "nix_stable_24_05" : {
-      "version" : "6.2.6",
-      "status" : "outdated",
-      "origversion" : "N/A"
-   },
-   "nix_unstable" : {
-      "origversion" : "N/A",
-      "status" : "newest",
-      "version" : "7.1.2"
-   },
-   "macports" : {
-      "version" : "7.1.2",
-      "origversion" : "N/A",
-      "status" : "newest"
-   },
-   "manjaro_testing/extra" : {
-      "origversion" : "1:7.1.2-1",
-      "status" : "newest",
-      "version" : "7.1.2"
-   },
-   "tur" : {
-      "origversion" : "N/A",
-      "status" : "outdated",
-      "version" : "6.2.6"
-   },
-   "kali_rolling/main" : {
-      "status" : "outdated",
-      "origversion" : "6.2.6+ds2-1",
-      "version" : "6.2.6"
-   },
-   "ubuntu_25_10/questing/universe" : {
-      "version" : "6.2.6",
-      "origversion" : "6.2.6+ds2-1",
-      "status" : "outdated"
-   },
-   "openmandriva_5_0/unsupported/release" : {
-      "origversion" : "5.1.0-1",
-      "status" : "outdated",
-      "version" : "5.1.0"
-   },
-   "scoop/main" : {
-      "version" : "7.1.2",
-      "origversion" : "N/A",
-      "status" : "newest"
-   },
-   "fedora_rawhide/development" : {
-      "version" : "6.2.6",
-      "origversion" : "6.2.6-13.fc43",
-      "status" : "outdated"
-   },
-   "parrot/parrot-updates/main" : {
-      "version" : "6.2.6",
-      "status" : "outdated",
-      "origversion" : "6.2.6+ds1-1"
+      "version" : "5.0.0"
    },
    "chimera/user" : {
-      "version" : "6.2.6",
       "origversion" : "6.2.6-r0",
-      "status" : "outdated"
+      "status" : "outdated",
+      "version" : "6.2.6"
    },
-   "debian_13/trixie/main" : {
-      "version" : "6.2.6",
-      "origversion" : "6.2.6+ds2-1",
-      "status" : "outdated"
-   },
-   "gnuguix" : {
-      "version" : "6.2.6",
+   "chocolatey" : {
       "origversion" : "N/A",
-      "status" : "outdated"
+      "status" : "newest",
+      "version" : "7.1.2"
    },
-   "devuan_4_0/chimaera/main" : {
+   "debian_11/bullseye/main" : {
       "origversion" : "6.1.1+ds1-1",
       "status" : "outdated",
       "version" : "6.1.1"
    },
-   "aosc" : {
-      "version" : "6.2.6",
-      "origversion" : "6.2.6-1",
-      "status" : "outdated"
-   },
-   "ubuntu_18_04/bionic/universe" : {
+   "debian_12/bookworm/main" : {
+      "origversion" : "6.2.6+ds1-1",
       "status" : "outdated",
-      "origversion" : "4.0.1-1",
-      "version" : "4.0.1"
+      "version" : "6.2.6"
    },
-   "fedora_38/release" : {
-      "version" : "6.2.6",
-      "origversion" : "6.2.6-2.fc38",
-      "status" : "outdated"
-   },
-   "ubuntu_20_04/focal/universe" : {
-      "origversion" : "5.1.0+ds1-2",
+   "debian_13/trixie/main" : {
+      "origversion" : "6.2.6+ds2-1",
       "status" : "outdated",
-      "version" : "5.1.0"
+      "version" : "6.2.6"
    },
-   "openmandriva_4_3/unsupported/release" : {
-      "origversion" : "5.1.0-1",
+   "debian_14/forky/main" : {
+      "origversion" : "6.2.6+ds2-1",
       "status" : "outdated",
-      "version" : "5.1.0"
+      "version" : "6.2.6"
+   },
+   "debian_experimental/experimental/main" : {
+      "origversion" : "7.1.2+ds1-1",
+      "status" : "newest",
+      "version" : "7.1.2"
+   },
+   "debian_unstable/sid/main" : {
+      "origversion" : "6.2.6+ds2-1",
+      "status" : "outdated",
+      "version" : "6.2.6"
    },
    "deepin_unstable/main" : {
       "origversion" : "5.1.0+ds1-1",
       "status" : "outdated",
       "version" : "5.1.0"
    },
-   "raspbian_oldstable/main" : {
+   "devuan_4_0/chimaera/main" : {
       "origversion" : "6.1.1+ds1-1",
       "status" : "outdated",
       "version" : "6.1.1"
    },
-   "pureos_amber/amber/main" : {
-      "version" : "5.1.0",
-      "origversion" : "5.1.0+ds1-1",
-      "status" : "outdated"
-   },
-   "pardus_21/main" : {
-      "version" : "6.1.1",
-      "origversion" : "6.1.1+ds1-1",
-      "status" : "outdated"
-   },
-   "alt_p11" : {
+   "devuan_unstable/unstable/main" : {
+      "origversion" : "6.2.6+ds2-1",
       "status" : "outdated",
-      "origversion" : "6.2.6-alt3",
       "version" : "6.2.6"
    },
-   "rosa_2019_1/contrib/release" : {
-      "version" : "6.2.6",
+   "fedora_37/release" : {
+      "origversion" : "6.2.6-1.fc37",
       "status" : "outdated",
-      "origversion" : "6.2.6-1"
-   },
-   "alt_p10" : {
-      "status" : "outdated",
-      "origversion" : "6.2.6-alt3",
       "version" : "6.2.6"
    },
-   "archlinuxarm_aarch64/extra" : {
-      "version" : "6.2.6",
+   "fedora_38/release" : {
+      "origversion" : "6.2.6-2.fc38",
       "status" : "outdated",
-      "origversion" : "1:6.2.6-2"
-   },
-   "openmandriva_6_0/unsupported/release" : {
-      "version" : "5.1.0",
-      "origversion" : "5.1.0-1",
-      "status" : "outdated"
-   },
-   "alt_p9" : {
-      "version" : "2.00",
-      "origversion" : "2.00-alt1",
-      "status" : "outdated"
-   },
-   "altsisyphus" : {
-      "version" : "6.2.6",
-      "origversion" : "6.2.6-alt3",
-      "status" : "outdated"
-   },
-   "pureos_byzantium/byzantium/main" : {
-      "origversion" : "6.1.1+ds1-1",
-      "status" : "outdated",
-      "version" : "6.1.1"
-   },
-   "archlinuxarm_aarch64/community" : {
-      "status" : "outdated",
-      "origversion" : "1:6.2.6-1",
-      "version" : "6.2.6"
-   },
-   "fedora_41/release" : {
-      "status" : "outdated",
-      "origversion" : "6.2.6-7.fc41",
-      "version" : "6.2.6"
-   },
-   "raspbian_stable/main" : {
-      "version" : "6.2.6",
-      "origversion" : "6.2.6+ds1-1",
-      "status" : "outdated"
-   },
-   "opensuse_leap_15_5/main/oss" : {
-      "version" : "6.2.5",
-      "origversion" : "6.2.5-bp155.1.7",
-      "status" : "outdated"
-   },
-   "slackbuilds" : {
-      "status" : "outdated",
-      "origversion" : "N/A",
-      "version" : "6.2.4"
-   },
-   "trisquel_10_0/nabia/main" : {
-      "status" : "outdated",
-      "origversion" : "5.1.0+ds1-2",
-      "version" : "5.1.0"
-   },
-   "manjaro_stable/extra" : {
-      "status" : "newest",
-      "origversion" : "1:7.1.2-1",
-      "version" : "7.1.2"
-   },
-   "nix_stable_22_11" : {
-      "version" : "6.2.6",
-      "status" : "outdated",
-      "origversion" : "N/A"
-   },
-   "slitaz_cooking" : {
-      "origversion" : "N/A",
-      "status" : "outdated",
-      "version" : "6.1.1"
-   },
-   "nix_stable_24_11" : {
-      "status" : "outdated",
-      "origversion" : "N/A",
-      "version" : "6.2.6"
-   },
-   "wikidata" : {
-      "version" : "7.1.2",
-      "status" : "newest",
-      "origversion" : "N/A"
-   },
-   "debian_12/bookworm/main" : {
-      "status" : "outdated",
-      "origversion" : "6.2.6+ds1-1",
       "version" : "6.2.6"
    },
    "fedora_39/release" : {
@@ -429,14 +119,324 @@
       "status" : "outdated",
       "version" : "6.2.6"
    },
-   "chocolatey" : {
+   "fedora_40/release" : {
+      "origversion" : "6.2.6-6.fc40",
       "status" : "outdated",
-      "origversion" : "N/A",
       "version" : "6.2.6"
+   },
+   "fedora_41/release" : {
+      "origversion" : "6.2.6-7.fc41",
+      "status" : "outdated",
+      "version" : "6.2.6"
+   },
+   "fedora_42/release" : {
+      "origversion" : "6.2.6-12.fc42",
+      "status" : "outdated",
+      "version" : "6.2.6"
+   },
+   "fedora_rawhide/development" : {
+      "origversion" : "6.2.6-13.fc43",
+      "status" : "outdated",
+      "version" : "6.2.6"
+   },
+   "freebsd" : {
+      "origversion" : "7.1.2_1,1",
+      "status" : "newest",
+      "version" : "7.1.2"
+   },
+   "gentoo" : {
+      "origversion" : "N/A",
+      "status" : "newest",
+      "version" : "7.1.2"
+   },
+   "gnuguix" : {
+      "origversion" : "N/A",
+      "status" : "newest",
+      "version" : "7.1.2"
    },
    "homebrew" : {
       "origversion" : "N/A",
       "status" : "rolling",
       "version" : "HEAD"
+   },
+   "kali_rolling/main" : {
+      "origversion" : "7.1.2+ds1-1kali3",
+      "status" : "newest",
+      "version" : "7.1.2"
+   },
+   "liguros_develop" : {
+      "origversion" : "6.2.6-r1",
+      "status" : "legacy",
+      "version" : "6.2.6"
+   },
+   "liguros_stable" : {
+      "origversion" : "N/A",
+      "status" : "newest",
+      "version" : "7.1.2"
+   },
+   "macports" : {
+      "origversion" : "N/A",
+      "status" : "newest",
+      "version" : "7.1.2"
+   },
+   "manjaro_stable/extra" : {
+      "origversion" : "1:7.1.2-1",
+      "status" : "newest",
+      "version" : "7.1.2"
+   },
+   "manjaro_testing/extra" : {
+      "origversion" : "1:7.1.2-1",
+      "status" : "newest",
+      "version" : "7.1.2"
+   },
+   "manjaro_unstable/extra" : {
+      "origversion" : "1:7.1.2-1",
+      "status" : "newest",
+      "version" : "7.1.2"
+   },
+   "nix_stable_22_11" : {
+      "origversion" : "N/A",
+      "status" : "outdated",
+      "version" : "6.2.6"
+   },
+   "nix_stable_23_05" : {
+      "origversion" : "N/A",
+      "status" : "outdated",
+      "version" : "6.2.6"
+   },
+   "nix_stable_23_11" : {
+      "origversion" : "N/A",
+      "status" : "outdated",
+      "version" : "6.2.6"
+   },
+   "nix_stable_24_05" : {
+      "origversion" : "N/A",
+      "status" : "outdated",
+      "version" : "6.2.6"
+   },
+   "nix_stable_24_11" : {
+      "origversion" : "N/A",
+      "status" : "outdated",
+      "version" : "6.2.6"
+   },
+   "nix_stable_25_05" : {
+      "origversion" : "N/A",
+      "status" : "outdated",
+      "version" : "6.2.6"
+   },
+   "nix_unstable" : {
+      "origversion" : "N/A",
+      "status" : "newest",
+      "version" : "7.1.2"
+   },
+   "openmandriva_4_3/unsupported/release" : {
+      "origversion" : "5.1.0-1",
+      "status" : "outdated",
+      "version" : "5.1.0"
+   },
+   "openmandriva_5_0/unsupported/release" : {
+      "origversion" : "5.1.0-1",
+      "status" : "outdated",
+      "version" : "5.1.0"
+   },
+   "openmandriva_6_0/unsupported/release" : {
+      "origversion" : "5.1.0-1",
+      "status" : "outdated",
+      "version" : "5.1.0"
+   },
+   "openmandriva_cooker/unsupported/release" : {
+      "origversion" : "5.1.0-1",
+      "status" : "outdated",
+      "version" : "5.1.0"
+   },
+   "openmandriva_rolling/unsupported/release" : {
+      "origversion" : "5.1.0-1",
+      "status" : "outdated",
+      "version" : "5.1.0"
+   },
+   "openpkg_current" : {
+      "origversion" : "N/A",
+      "status" : "outdated",
+      "version" : "6.0.0"
+   },
+   "opensuse_leap_15_4/main/oss" : {
+      "origversion" : "6.2.1-bp154.1.14",
+      "status" : "outdated",
+      "version" : "6.2.1"
+   },
+   "opensuse_leap_15_5/main/oss" : {
+      "origversion" : "6.2.5-bp155.1.7",
+      "status" : "outdated",
+      "version" : "6.2.5"
+   },
+   "opensuse_leap_15_6/main/oss" : {
+      "origversion" : "6.2.6-bp156.1.4",
+      "status" : "outdated",
+      "version" : "6.2.6"
+   },
+   "opensuse_security_tumbleweed" : {
+      "origversion" : "7.1.2-2.2",
+      "status" : "newest",
+      "version" : "7.1.2"
+   },
+   "opensuse_tumbleweed/src-oss" : {
+      "origversion" : "7.1.2-1.1",
+      "status" : "newest",
+      "version" : "7.1.2"
+   },
+   "parabola/extra" : {
+      "origversion" : "1:7.1.2-1",
+      "status" : "newest",
+      "version" : "7.1.2"
+   },
+   "pardus_21/main" : {
+      "origversion" : "6.1.1+ds1-1",
+      "status" : "outdated",
+      "version" : "6.1.1"
+   },
+   "parrot/parrot-updates/main" : {
+      "origversion" : "6.2.6+ds1-1",
+      "status" : "outdated",
+      "version" : "6.2.6"
+   },
+   "parrot/parrot/main" : {
+      "origversion" : "6.2.6+ds1-1",
+      "status" : "outdated",
+      "version" : "6.2.6"
+   },
+   "pclinuxos" : {
+      "origversion" : "5.1.0-1pclos2019",
+      "status" : "outdated",
+      "version" : "5.1.0"
+   },
+   "pkgsrc_current" : {
+      "origversion" : "N/A",
+      "status" : "newest",
+      "version" : "7.1.2"
+   },
+   "pureos_amber/amber/main" : {
+      "origversion" : "5.1.0+ds1-1",
+      "status" : "outdated",
+      "version" : "5.1.0"
+   },
+   "pureos_byzantium/byzantium/main" : {
+      "origversion" : "6.1.1+ds1-1",
+      "status" : "outdated",
+      "version" : "6.1.1"
+   },
+   "pureos_landing/landing/main" : {
+      "origversion" : "6.2.6+ds2-1",
+      "status" : "outdated",
+      "version" : "6.2.6"
+   },
+   "raspbian_oldstable/main" : {
+      "origversion" : "6.1.1+ds1-1",
+      "status" : "outdated",
+      "version" : "6.1.1"
+   },
+   "raspbian_stable/main" : {
+      "origversion" : "6.2.6+ds1-1",
+      "status" : "outdated",
+      "version" : "6.2.6"
+   },
+   "raspbian_testing/main" : {
+      "origversion" : "6.2.6+ds2-1",
+      "status" : "outdated",
+      "version" : "6.2.6"
+   },
+   "rosa_13/contrib/release" : {
+      "origversion" : "6.2.6-1",
+      "status" : "outdated",
+      "version" : "6.2.6"
+   },
+   "rosa_2019_1/contrib/release" : {
+      "origversion" : "6.2.6-1",
+      "status" : "outdated",
+      "version" : "6.2.6"
+   },
+   "scoop/main" : {
+      "origversion" : "N/A",
+      "status" : "newest",
+      "version" : "7.1.2"
+   },
+   "slackbuilds" : {
+      "origversion" : "N/A",
+      "status" : "outdated",
+      "version" : "6.2.4"
+   },
+   "slitaz_cooking" : {
+      "origversion" : "N/A",
+      "status" : "outdated",
+      "version" : "6.1.1"
+   },
+   "solus" : {
+      "origversion" : "N/A",
+      "status" : "outdated",
+      "version" : "6.2.6"
+   },
+   "spack" : {
+      "origversion" : "N/A",
+      "status" : "outdated",
+      "version" : "6.2.6"
+   },
+   "t2" : {
+      "origversion" : "N/A",
+      "status" : "newest",
+      "version" : "7.1.2"
+   },
+   "trisquel_10_0/nabia/main" : {
+      "origversion" : "5.1.0+ds1-2",
+      "status" : "outdated",
+      "version" : "5.1.0"
+   },
+   "trisquel_11_0/aramo/main" : {
+      "origversion" : "6.2.5+ds1-2",
+      "status" : "outdated",
+      "version" : "6.2.5"
+   },
+   "tur" : {
+      "origversion" : "N/A",
+      "status" : "outdated",
+      "version" : "6.2.6"
+   },
+   "ubuntu_18_04/bionic/universe" : {
+      "origversion" : "4.0.1-1",
+      "status" : "outdated",
+      "version" : "4.0.1"
+   },
+   "ubuntu_20_04/focal/universe" : {
+      "origversion" : "5.1.0+ds1-2",
+      "status" : "outdated",
+      "version" : "5.1.0"
+   },
+   "ubuntu_22_04/jammy/universe" : {
+      "origversion" : "6.2.5+ds1-2",
+      "status" : "outdated",
+      "version" : "6.2.5"
+   },
+   "ubuntu_24_04/noble/universe" : {
+      "origversion" : "6.2.6+ds1-1build2",
+      "status" : "outdated",
+      "version" : "6.2.6"
+   },
+   "ubuntu_25_04/plucky/universe" : {
+      "origversion" : "6.2.6+ds2-1",
+      "status" : "outdated",
+      "version" : "6.2.6"
+   },
+   "ubuntu_25_10/questing/universe" : {
+      "origversion" : "6.2.6+ds2-1",
+      "status" : "outdated",
+      "version" : "6.2.6"
+   },
+   "void_x86_64/x86_64" : {
+      "origversion" : "6.2.6_1",
+      "status" : "outdated",
+      "version" : "6.2.6"
+   },
+   "wikidata" : {
+      "origversion" : "N/A",
+      "status" : "newest",
+      "version" : "7.1.2"
    }
 }
