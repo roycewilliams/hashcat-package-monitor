@@ -140,7 +140,7 @@
       "version" : "6.2.6"
    },
    "freebsd" : {
-      "origversion" : "7.1.2_1,1",
+      "origversion" : "7.1.2_2,1",
       "status" : "newest",
       "version" : "7.1.2"
    },
