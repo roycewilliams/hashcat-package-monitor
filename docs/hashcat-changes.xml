@@ -87,5 +87,21 @@
 <guid isPermaLink="false">151fab94aa484f22d743fa4dd5c70288</guid>
 <pubDate>Fri, 03 Oct 2025 12:05:15 UTC</pubDate>
 </item>
+<item>
+<title>Package (homebrew version unknown): homebrew change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; homebrew&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">2b754e3a20572b866a1ad49087d7f465</guid>
+<pubDate>Sat, 04 Oct 2025 06:04:39 UTC</pubDate>
+</item>
+<item>
+<title>Package (slackbuilds version unknown): slackbuilds change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; slackbuilds&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">3155813f1effa6645697b6cc81b5b238</guid>
+<pubDate>Sat, 04 Oct 2025 06:04:39 UTC</pubDate>
+</item>
 </channel>
 </rss>

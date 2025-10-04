@@ -156,8 +156,8 @@
    },
    "homebrew" : {
       "origversion" : "N/A",
-      "status" : "rolling",
-      "version" : "HEAD"
+      "status" : "newest",
+      "version" : "7.1.2"
    },
    "kali_rolling/main" : {
       "origversion" : "7.1.2+ds1-1kali3",
@@ -361,8 +361,8 @@
    },
    "slackbuilds" : {
       "origversion" : "N/A",
-      "status" : "outdated",
-      "version" : "6.2.4"
+      "status" : "newest",
+      "version" : "7.1.2"
    },
    "slitaz_cooking" : {
       "origversion" : "N/A",
