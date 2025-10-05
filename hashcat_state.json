@@ -156,8 +156,8 @@
    },
    "homebrew" : {
       "origversion" : "N/A",
-      "status" : "newest",
-      "version" : "7.1.2"
+      "status" : "rolling",
+      "version" : "HEAD"
    },
    "kali_rolling/main" : {
       "origversion" : "7.1.2+ds1-1kali3",
@@ -396,8 +396,8 @@
    },
    "tur" : {
       "origversion" : "N/A",
-      "status" : "outdated",
-      "version" : "6.2.6"
+      "status" : "newest",
+      "version" : "7.1.2"
    },
    "ubuntu_18_04/bionic/universe" : {
       "origversion" : "4.0.1-1",
