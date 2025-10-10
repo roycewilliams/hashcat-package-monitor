@@ -119,5 +119,13 @@
 <guid isPermaLink="false">f9fc3fb28a6d2830a7b68501d26a3305</guid>
 <pubDate>Sun, 05 Oct 2025 18:04:23 UTC</pubDate>
 </item>
+<item>
+<title>Package (nix_stable_22_11 version unknown): nix_stable_22_11 change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; nix_stable_22_11&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Removal&#x3C;/div&#x3E;</description>
+<category>Security Tools/Deprecated</category>
+<guid isPermaLink="false">e95324edd4a86547947a16c84eee35c8</guid>
+<pubDate>Fri, 10 Oct 2025 00:11:28 UTC</pubDate>
+</item>
 </channel>
 </rss>
