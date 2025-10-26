@@ -135,5 +135,29 @@
 <guid isPermaLink="false">c95ab51122a6b70d3170a7764387b990</guid>
 <pubDate>Fri, 17 Oct 2025 18:03:59 UTC</pubDate>
 </item>
+<item>
+<title>Package (main version unknown): debian_unstable/sid/main change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; debian_unstable/sid/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">1e6b406fe455a3cc3bb9719186702593</guid>
+<pubDate>Sun, 26 Oct 2025 06:04:47 UTC</pubDate>
+</item>
+<item>
+<title>Package (main version unknown): devuan_unstable/unstable/main change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; devuan_unstable/unstable/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">503da24cd141a2710ae4b37d2d85d52d</guid>
+<pubDate>Sun, 26 Oct 2025 06:04:47 UTC</pubDate>
+</item>
+<item>
+<title>Package (main version unknown): debian_experimental/experimental/main change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; debian_experimental/experimental/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Removal&#x3C;/div&#x3E;</description>
+<category>Security Tools/Deprecated</category>
+<guid isPermaLink="false">d89864c3bca76fe9e0a18066581daf48</guid>
+<pubDate>Sun, 26 Oct 2025 06:04:47 UTC</pubDate>
+</item>
 </channel>
 </rss>
