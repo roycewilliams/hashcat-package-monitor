@@ -159,5 +159,13 @@
 <guid isPermaLink="false">d89864c3bca76fe9e0a18066581daf48</guid>
 <pubDate>Sun, 26 Oct 2025 06:04:47 UTC</pubDate>
 </item>
+<item>
+<title>Package (extra version unknown): archlinuxarm_aarch64/extra change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; archlinuxarm_aarch64/extra&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Removal&#x3C;/div&#x3E;</description>
+<category>Security Tools/Deprecated</category>
+<guid isPermaLink="false">64542476790498cb8c33ae63837cf967</guid>
+<pubDate>Mon, 27 Oct 2025 18:04:53 UTC</pubDate>
+</item>
 </channel>
 </rss>
