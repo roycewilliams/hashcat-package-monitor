@@ -119,6 +119,11 @@
       "status" : "outdated",
       "version" : "6.2.6"
    },
+   "fedora_43/release" : {
+      "origversion" : "6.2.6-13.fc43",
+      "status" : "outdated",
+      "version" : "6.2.6"
+   },
    "fedora_rawhide/development" : {
       "origversion" : "6.2.6-13.fc43",
       "status" : "outdated",

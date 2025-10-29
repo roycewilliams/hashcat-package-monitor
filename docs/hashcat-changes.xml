@@ -183,5 +183,13 @@
 <guid isPermaLink="false">879e32cb8882db5fe1ed245187025027</guid>
 <pubDate>Wed, 29 Oct 2025 06:05:05 UTC</pubDate>
 </item>
+<item>
+<title>Package (release version unknown): fedora_43/release change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; fedora_43/release&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; New Package&#x3C;/div&#x3E;</description>
+<category>Security Tools/New Release</category>
+<guid isPermaLink="false">01cf14b7a13d62299521284401107bb2</guid>
+<pubDate>Wed, 29 Oct 2025 18:05:00 UTC</pubDate>
+</item>
 </channel>
 </rss>
