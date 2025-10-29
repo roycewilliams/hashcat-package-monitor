@@ -167,5 +167,13 @@
 <guid isPermaLink="false">64542476790498cb8c33ae63837cf967</guid>
 <pubDate>Mon, 27 Oct 2025 18:04:53 UTC</pubDate>
 </item>
+<item>
+<title>Package (solus version unknown): solus change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; solus&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">8050fd13ea6d65310ed79bdf3f6e390e</guid>
+<pubDate>Wed, 29 Oct 2025 00:11:36 UTC</pubDate>
+</item>
 </channel>
 </rss>

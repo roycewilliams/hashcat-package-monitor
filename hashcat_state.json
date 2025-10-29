@@ -351,8 +351,8 @@
    },
    "solus" : {
       "origversion" : "N/A",
-      "status" : "outdated",
-      "version" : "6.2.6"
+      "status" : "newest",
+      "version" : "7.1.2"
    },
    "spack" : {
       "origversion" : "N/A",
