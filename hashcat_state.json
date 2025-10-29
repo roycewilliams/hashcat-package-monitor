@@ -255,7 +255,7 @@
       "version" : "6.2.6"
    },
    "opensuse_security_tumbleweed" : {
-      "origversion" : "7.1.2-2.2",
+      "origversion" : "7.1.2-2.3",
       "status" : "newest",
       "version" : "7.1.2"
    },

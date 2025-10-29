@@ -175,5 +175,13 @@
 <guid isPermaLink="false">8050fd13ea6d65310ed79bdf3f6e390e</guid>
 <pubDate>Wed, 29 Oct 2025 00:11:36 UTC</pubDate>
 </item>
+<item>
+<title>Package (opensuse_security_tumbleweed version unknown): opensuse_security_tumbleweed change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; opensuse_security_tumbleweed&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">879e32cb8882db5fe1ed245187025027</guid>
+<pubDate>Wed, 29 Oct 2025 06:05:05 UTC</pubDate>
+</item>
 </channel>
 </rss>
