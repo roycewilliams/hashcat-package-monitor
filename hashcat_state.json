@@ -125,9 +125,9 @@
       "version" : "6.2.6"
    },
    "fedora_rawhide/development" : {
-      "origversion" : "6.2.6-13.fc43",
-      "status" : "outdated",
-      "version" : "6.2.6"
+      "origversion" : "7.1.2-4.fc44",
+      "status" : "newest",
+      "version" : "7.1.2"
    },
    "freebsd" : {
       "origversion" : "7.1.2_2,1",

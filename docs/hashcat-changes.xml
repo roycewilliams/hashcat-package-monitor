@@ -191,5 +191,13 @@
 <guid isPermaLink="false">01cf14b7a13d62299521284401107bb2</guid>
 <pubDate>Wed, 29 Oct 2025 18:05:00 UTC</pubDate>
 </item>
+<item>
+<title>Package (development version unknown): fedora_rawhide/development change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; fedora_rawhide/development&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">3997336f4e932edbace293c2a4a9fa9e</guid>
+<pubDate>Thu, 30 Oct 2025 12:05:28 UTC</pubDate>
+</item>
 </channel>
 </rss>
