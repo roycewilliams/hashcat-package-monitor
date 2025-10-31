@@ -65,9 +65,9 @@
       "version" : "6.2.6"
    },
    "debian_14/forky/main" : {
-      "origversion" : "6.2.6+ds2-1",
-      "status" : "outdated",
-      "version" : "6.2.6"
+      "origversion" : "7.1.2+ds1-3",
+      "status" : "newest",
+      "version" : "7.1.2"
    },
    "debian_unstable/sid/main" : {
       "origversion" : "7.1.2+ds1-3",

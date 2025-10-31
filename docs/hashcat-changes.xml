@@ -199,5 +199,13 @@
 <guid isPermaLink="false">3997336f4e932edbace293c2a4a9fa9e</guid>
 <pubDate>Thu, 30 Oct 2025 12:05:28 UTC</pubDate>
 </item>
+<item>
+<title>Package (main version unknown): debian_14/forky/main change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; debian_14/forky/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">7ad0ee6edf861daf0aec7182ba704684</guid>
+<pubDate>Fri, 31 Oct 2025 06:04:55 UTC</pubDate>
+</item>
 </channel>
 </rss>
