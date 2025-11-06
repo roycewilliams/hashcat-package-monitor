@@ -294,6 +294,16 @@
       "status" : "outdated",
       "version" : "5.1.0"
    },
+   "pkgsrc_2025_2" : {
+      "origversion" : "N/A",
+      "status" : "outdated",
+      "version" : "6.2.6"
+   },
+   "pkgsrc_2025_3" : {
+      "origversion" : "N/A",
+      "status" : "newest",
+      "version" : "7.1.2"
+   },
    "pkgsrc_current" : {
       "origversion" : "N/A",
       "status" : "newest",

@@ -207,5 +207,21 @@
 <guid isPermaLink="false">7ad0ee6edf861daf0aec7182ba704684</guid>
 <pubDate>Fri, 31 Oct 2025 06:04:55 UTC</pubDate>
 </item>
+<item>
+<title>Package (pkgsrc_2025_2 version unknown): pkgsrc_2025_2 change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; pkgsrc_2025_2&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; New Package&#x3C;/div&#x3E;</description>
+<category>Security Tools/New Release</category>
+<guid isPermaLink="false">5fb4d28f5dd948f581c7c02efbd487dd</guid>
+<pubDate>Thu, 06 Nov 2025 00:11:12 UTC</pubDate>
+</item>
+<item>
+<title>Package (pkgsrc_2025_3 version unknown): pkgsrc_2025_3 change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; pkgsrc_2025_3&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; New Package&#x3C;/div&#x3E;</description>
+<category>Security Tools/New Release</category>
+<guid isPermaLink="false">9cad36f7bdb07f4f9fa1b19f2318842b</guid>
+<pubDate>Thu, 06 Nov 2025 00:11:12 UTC</pubDate>
+</item>
 </channel>
 </rss>
