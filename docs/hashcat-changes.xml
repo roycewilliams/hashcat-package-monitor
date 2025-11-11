@@ -223,5 +223,13 @@
 <guid isPermaLink="false">9cad36f7bdb07f4f9fa1b19f2318842b</guid>
 <pubDate>Thu, 06 Nov 2025 00:11:12 UTC</pubDate>
 </item>
+<item>
+<title>Package (freebsd version unknown): freebsd change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; freebsd&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">66822390caa03e3342c44e1f014f5f76</guid>
+<pubDate>Tue, 11 Nov 2025 18:04:44 UTC</pubDate>
+</item>
 </channel>
 </rss>
