@@ -231,5 +231,13 @@
 <guid isPermaLink="false">66822390caa03e3342c44e1f014f5f76</guid>
 <pubDate>Tue, 11 Nov 2025 18:04:44 UTC</pubDate>
 </item>
+<item>
+<title>Package (world version unknown): artix/world change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; artix/world&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; New Package&#x3C;/div&#x3E;</description>
+<category>Security Tools/New Release</category>
+<guid isPermaLink="false">41ffd561b0bf2b252d687cb9d6ad83a0</guid>
+<pubDate>Wed, 19 Nov 2025 12:05:12 UTC</pubDate>
+</item>
 </channel>
 </rss>

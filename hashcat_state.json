@@ -34,6 +34,11 @@
       "status" : "newest",
       "version" : "7.1.2"
    },
+   "artix/world" : {
+      "origversion" : "1:7.1.2-1",
+      "status" : "newest",
+      "version" : "7.1.2"
+   },
    "aur" : {
       "origversion" : "5.0.0+52+g2aff01b2-1",
       "status" : "rolling",
