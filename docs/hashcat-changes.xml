@@ -247,5 +247,13 @@
 <guid isPermaLink="false">c69f2119a6cf1f40e60be3422bbb90d5</guid>
 <pubDate>Thu, 20 Nov 2025 06:05:02 UTC</pubDate>
 </item>
+<item>
+<title>Package (universe version unknown): ubuntu_26_04/resolute/universe change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; ubuntu_26_04/resolute/universe&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; New Package&#x3C;/div&#x3E;</description>
+<category>Security Tools/New Release</category>
+<guid isPermaLink="false">b55c00bc7f3b7129e7198dd2ce771f95</guid>
+<pubDate>Thu, 20 Nov 2025 18:05:03 UTC</pubDate>
+</item>
 </channel>
 </rss>

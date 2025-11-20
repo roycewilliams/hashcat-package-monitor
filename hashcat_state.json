@@ -429,6 +429,11 @@
       "status" : "outdated",
       "version" : "6.2.6"
    },
+   "ubuntu_26_04/resolute/universe" : {
+      "origversion" : "7.1.2+ds1-3",
+      "status" : "newest",
+      "version" : "7.1.2"
+   },
    "void_x86_64/x86_64" : {
       "origversion" : "6.2.6_1",
       "status" : "outdated",
