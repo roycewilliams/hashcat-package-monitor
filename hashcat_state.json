@@ -155,7 +155,7 @@
       "version" : "HEAD"
    },
    "kali_rolling/main" : {
-      "origversion" : "7.1.2+ds1-1kali3",
+      "origversion" : "7.1.2+ds1-3",
       "status" : "newest",
       "version" : "7.1.2"
    },

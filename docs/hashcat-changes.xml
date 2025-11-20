@@ -239,5 +239,13 @@
 <guid isPermaLink="false">41ffd561b0bf2b252d687cb9d6ad83a0</guid>
 <pubDate>Wed, 19 Nov 2025 12:05:12 UTC</pubDate>
 </item>
+<item>
+<title>Package (main version unknown): kali_rolling/main change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; kali_rolling/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">c69f2119a6cf1f40e60be3422bbb90d5</guid>
+<pubDate>Thu, 20 Nov 2025 06:05:02 UTC</pubDate>
+</item>
 </channel>
 </rss>
