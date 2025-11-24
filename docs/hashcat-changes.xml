@@ -255,5 +255,21 @@
 <guid isPermaLink="false">b55c00bc7f3b7129e7198dd2ce771f95</guid>
 <pubDate>Thu, 20 Nov 2025 18:05:03 UTC</pubDate>
 </item>
+<item>
+<title>Package (main version unknown): parrot/parrot-updates/main change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; parrot/parrot-updates/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">c43222fb32560e87c70c7e267a015924</guid>
+<pubDate>Mon, 24 Nov 2025 06:05:07 UTC</pubDate>
+</item>
+<item>
+<title>Package (main version unknown): parrot/parrot/main change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; parrot/parrot/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">e2b83562ec8cbebf6f1d3040ed3c2877</guid>
+<pubDate>Mon, 24 Nov 2025 06:05:07 UTC</pubDate>
+</item>
 </channel>
 </rss>

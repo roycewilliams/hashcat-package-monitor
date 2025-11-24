@@ -285,12 +285,12 @@
       "version" : "6.1.1"
    },
    "parrot/parrot-updates/main" : {
-      "origversion" : "6.2.6+ds1-1",
+      "origversion" : "6.2.6+ds2-1",
       "status" : "outdated",
       "version" : "6.2.6"
    },
    "parrot/parrot/main" : {
-      "origversion" : "6.2.6+ds1-1",
+      "origversion" : "6.2.6+ds2-1",
       "status" : "outdated",
       "version" : "6.2.6"
    },
