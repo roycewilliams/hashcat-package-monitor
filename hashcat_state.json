@@ -44,6 +44,16 @@
       "status" : "rolling",
       "version" : "5.0.0"
    },
+   "backbox_8" : {
+      "origversion" : "6.2.6+ds1-1~bpo22.04.1~ppa1",
+      "status" : "outdated",
+      "version" : "6.2.6"
+   },
+   "backbox_9" : {
+      "origversion" : "6.2.6+ds2-1~bpo24.04.1~ppa1",
+      "status" : "outdated",
+      "version" : "6.2.6"
+   },
    "chimera/user" : {
       "origversion" : "6.2.6-r0",
       "status" : "outdated",

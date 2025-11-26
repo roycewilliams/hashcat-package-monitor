@@ -271,5 +271,21 @@
 <guid isPermaLink="false">e2b83562ec8cbebf6f1d3040ed3c2877</guid>
 <pubDate>Mon, 24 Nov 2025 06:05:07 UTC</pubDate>
 </item>
+<item>
+<title>Package (backbox_8 version unknown): backbox_8 change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; backbox_8&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; New Package&#x3C;/div&#x3E;</description>
+<category>Security Tools/New Release</category>
+<guid isPermaLink="false">96df4925465c4ca7b78dcd738195a1c9</guid>
+<pubDate>Wed, 26 Nov 2025 18:04:59 UTC</pubDate>
+</item>
+<item>
+<title>Package (backbox_9 version unknown): backbox_9 change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; backbox_9&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; New Package&#x3C;/div&#x3E;</description>
+<category>Security Tools/New Release</category>
+<guid isPermaLink="false">2e0875696e3276a33efe48ce65c18a50</guid>
+<pubDate>Wed, 26 Nov 2025 18:04:59 UTC</pubDate>
+</item>
 </channel>
 </rss>
