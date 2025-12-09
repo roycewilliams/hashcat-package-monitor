@@ -25,9 +25,9 @@
       "version" : "6.2.6"
    },
    "aosc" : {
-      "origversion" : "6.2.6-1",
-      "status" : "outdated",
-      "version" : "6.2.6"
+      "origversion" : "N/A",
+      "status" : "newest",
+      "version" : "7.1.2"
    },
    "arch/extra" : {
       "origversion" : "1:7.1.2-1",
@@ -340,12 +340,12 @@
       "version" : "6.2.6"
    },
    "raspbian_oldstable/main" : {
-      "origversion" : "6.1.1+ds1-1",
+      "origversion" : "6.2.6+ds1-1",
       "status" : "outdated",
-      "version" : "6.1.1"
+      "version" : "6.2.6"
    },
    "raspbian_stable/main" : {
-      "origversion" : "6.2.6+ds1-1",
+      "origversion" : "6.2.6+ds2-1",
       "status" : "outdated",
       "version" : "6.2.6"
    },

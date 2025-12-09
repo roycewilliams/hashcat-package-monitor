@@ -287,5 +287,29 @@
 <guid isPermaLink="false">2e0875696e3276a33efe48ce65c18a50</guid>
 <pubDate>Wed, 26 Nov 2025 18:04:59 UTC</pubDate>
 </item>
+<item>
+<title>Package (aosc version unknown): aosc change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; aosc&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">a72f9ae28179f4920dab6a4c83f9d99c</guid>
+<pubDate>Tue, 09 Dec 2025 06:04:56 UTC</pubDate>
+</item>
+<item>
+<title>Package (main version unknown): raspbian_oldstable/main change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; raspbian_oldstable/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">b1fd7cff912f93eb64a1c3ee24544365</guid>
+<pubDate>Tue, 09 Dec 2025 06:04:56 UTC</pubDate>
+</item>
+<item>
+<title>Package (main version unknown): raspbian_stable/main change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; raspbian_stable/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">059c37e9ca0bd7c65bc1ee5e397431c7</guid>
+<pubDate>Tue, 09 Dec 2025 06:04:56 UTC</pubDate>
+</item>
 </channel>
 </rss>
