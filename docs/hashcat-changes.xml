@@ -311,5 +311,13 @@
 <guid isPermaLink="false">059c37e9ca0bd7c65bc1ee5e397431c7</guid>
 <pubDate>Tue, 09 Dec 2025 06:04:56 UTC</pubDate>
 </item>
+<item>
+<title>Package (nix_stable_25_11 version unknown): nix_stable_25_11 change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; nix_stable_25_11&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; New Package&#x3C;/div&#x3E;</description>
+<category>Security Tools/New Release</category>
+<guid isPermaLink="false">51a624e3fe6c39e492c78d6ecfdb69bf</guid>
+<pubDate>Wed, 10 Dec 2025 00:11:47 UTC</pubDate>
+</item>
 </channel>
 </rss>
