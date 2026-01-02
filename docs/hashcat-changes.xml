@@ -343,5 +343,13 @@
 <guid isPermaLink="false">e4c3765e9b0855ab76f7cd6bf27356e1</guid>
 <pubDate>Wed, 24 Dec 2025 06:05:05 UTC</pubDate>
 </item>
+<item>
+<title>Package (extra version unknown): arch/extra change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; arch/extra&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">f085c2ea2e6dd751a642abc0714a8361</guid>
+<pubDate>Fri, 02 Jan 2026 06:05:10 UTC</pubDate>
+</item>
 </channel>
 </rss>
