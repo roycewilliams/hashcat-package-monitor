@@ -351,5 +351,13 @@
 <guid isPermaLink="false">f085c2ea2e6dd751a642abc0714a8361</guid>
 <pubDate>Fri, 02 Jan 2026 06:05:10 UTC</pubDate>
 </item>
+<item>
+<title>Package (extra version unknown): manjaro_unstable/extra change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; manjaro_unstable/extra&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">bf5c1b31ff82906417fd10feb9b24e13</guid>
+<pubDate>Sat, 03 Jan 2026 06:04:57 UTC</pubDate>
+</item>
 </channel>
 </rss>
