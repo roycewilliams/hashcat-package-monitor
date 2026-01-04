@@ -359,5 +359,13 @@
 <guid isPermaLink="false">bf5c1b31ff82906417fd10feb9b24e13</guid>
 <pubDate>Sat, 03 Jan 2026 06:04:57 UTC</pubDate>
 </item>
+<item>
+<title>Package (extra version unknown): manjaro_testing/extra change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; manjaro_testing/extra&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">27b6e50bb88df8cd54702b450f6b4986</guid>
+<pubDate>Sun, 04 Jan 2026 06:04:56 UTC</pubDate>
+</item>
 </channel>
 </rss>
