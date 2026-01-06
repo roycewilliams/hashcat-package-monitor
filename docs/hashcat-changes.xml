@@ -375,5 +375,13 @@
 <guid isPermaLink="false">ad00c929af588901af3e5ea7759eed27</guid>
 <pubDate>Mon, 05 Jan 2026 06:07:07 UTC</pubDate>
 </item>
+<item>
+<title>Package (extra version unknown): parabola/extra change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; parabola/extra&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">c2d328ba1888777043024d7ff09a618c</guid>
+<pubDate>Tue, 06 Jan 2026 06:05:08 UTC</pubDate>
+</item>
 </channel>
 </rss>
