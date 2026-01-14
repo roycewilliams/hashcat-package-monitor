@@ -383,5 +383,13 @@
 <guid isPermaLink="false">c2d328ba1888777043024d7ff09a618c</guid>
 <pubDate>Tue, 06 Jan 2026 06:05:08 UTC</pubDate>
 </item>
+<item>
+<title>Package (main version unknown): raspbian_testing/main change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; raspbian_testing/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">84998cc0c998974e939f86908498774b</guid>
+<pubDate>Wed, 14 Jan 2026 00:12:27 UTC</pubDate>
+</item>
 </channel>
 </rss>
