@@ -35,7 +35,7 @@
       "version" : "7.1.2"
    },
    "artix/world" : {
-      "origversion" : "1:7.1.2-1",
+      "origversion" : "1:7.1.2-2",
       "status" : "newest",
       "version" : "7.1.2"
    },
@@ -225,11 +225,6 @@
       "version" : "6.2.6"
    },
    "nix_stable_25_11" : {
-      "origversion" : "N/A",
-      "status" : "newest",
-      "version" : "7.1.2"
-   },
-   "nix_unstable" : {
       "origversion" : "N/A",
       "status" : "newest",
       "version" : "7.1.2"

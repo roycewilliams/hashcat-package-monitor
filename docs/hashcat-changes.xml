@@ -391,5 +391,21 @@
 <guid isPermaLink="false">84998cc0c998974e939f86908498774b</guid>
 <pubDate>Wed, 14 Jan 2026 00:12:27 UTC</pubDate>
 </item>
+<item>
+<title>Package (world version unknown): artix/world change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; artix/world&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">da108ecdc355ccaf067b3260fba71387</guid>
+<pubDate>Thu, 15 Jan 2026 00:12:28 UTC</pubDate>
+</item>
+<item>
+<title>Package (nix_unstable version unknown): nix_unstable change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; nix_unstable&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Removal&#x3C;/div&#x3E;</description>
+<category>Security Tools/Deprecated</category>
+<guid isPermaLink="false">1a566c3005388dc5c7a8e256ac6ecad0</guid>
+<pubDate>Thu, 15 Jan 2026 00:12:28 UTC</pubDate>
+</item>
 </channel>
 </rss>
