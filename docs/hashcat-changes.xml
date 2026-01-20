@@ -407,5 +407,13 @@
 <guid isPermaLink="false">1a566c3005388dc5c7a8e256ac6ecad0</guid>
 <pubDate>Thu, 15 Jan 2026 00:12:28 UTC</pubDate>
 </item>
+<item>
+<title>Package (nix_unstable version unknown): nix_unstable change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; nix_unstable&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; New Package&#x3C;/div&#x3E;</description>
+<category>Security Tools/New Release</category>
+<guid isPermaLink="false">b6cfb9001423ba877fef6d14b4b7ad3b</guid>
+<pubDate>Tue, 20 Jan 2026 00:11:49 UTC</pubDate>
+</item>
 </channel>
 </rss>

@@ -229,6 +229,11 @@
       "status" : "newest",
       "version" : "7.1.2"
    },
+   "nix_unstable" : {
+      "origversion" : "N/A",
+      "status" : "newest",
+      "version" : "7.1.2"
+   },
    "openmandriva_4_3/unsupported/release" : {
       "origversion" : "5.1.0-1",
       "status" : "outdated",
