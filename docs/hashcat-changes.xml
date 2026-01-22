@@ -24,156 +24,12 @@
 <ttl>360</ttl>
 
 <item>
-<title>No new changes detected in Hashcat repository</title>
+<title>Package (release version unknown): fedora_43/release change</title>
 <link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>The monitor ran at Mon, 22 Sep 2025 17:49:02 UTC and found no new changes.</description>
-<category>Security Tools/Maintenance</category>
-<guid isPermaLink="false">no-changes-item-static-guid</guid>
-<pubDate>Mon, 22 Sep 2025 17:49:02 UTC</pubDate>
-</item>
-<item>
-<title>Changes detected in package: gnuguix</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; gnuguix&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;em&#x3E;This change affects the Hashcat password recovery tool. Security professionals should review for potential impact on security assessments.&#x3C;/em&#x3E;&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">e430dbc5c0487dcff2eedbe77ac42bf3</guid>
-<pubDate>Wed, 24 Sep 2025 06:05:12 UTC</pubDate>
-</item>
-<item>
-<title>Changes detected in package: chocolatey</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; chocolatey&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;em&#x3E;This change affects the Hashcat password recovery tool. Security professionals should review for potential impact on security assessments.&#x3C;/em&#x3E;&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">4dcd96dd81c11197f556cd171f124778</guid>
-<pubDate>Sat, 27 Sep 2025 00:10:04 UTC</pubDate>
-</item>
-<item>
-<title>Changes detected in package: homebrew</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; homebrew&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;em&#x3E;This change affects the Hashcat password recovery tool. Security professionals should review for potential impact on security assessments.&#x3C;/em&#x3E;&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">20a5622a706e1953c40913c0fcdb407e</guid>
-<pubDate>Sat, 27 Sep 2025 00:10:04 UTC</pubDate>
-</item>
-<item>
-<title>Changes detected in package: homebrew</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; homebrew&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;em&#x3E;This change affects the Hashcat password recovery tool. Security professionals should review for potential impact on security assessments.&#x3C;/em&#x3E;&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">7c8a5a2b740f94d8a40f2ba7fa88dfd9</guid>
-<pubDate>Mon, 29 Sep 2025 06:05:21 UTC</pubDate>
-</item>
-<item>
-<title>Changes detected in package: kali_rolling/main</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; kali_rolling/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;em&#x3E;This change affects the Hashcat password recovery tool. Security professionals should review for potential impact on security assessments.&#x3C;/em&#x3E;&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">af71d895cd5232a97bda2390f10521bc</guid>
-<pubDate>Mon, 29 Sep 2025 06:05:21 UTC</pubDate>
-</item>
-<item>
-<title>Package (main version unknown): debian_experimental/experimental/main change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; debian_experimental/experimental/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">488c9985230af8a28091d3afcdc6820c</guid>
-<pubDate>Thu, 02 Oct 2025 12:05:09 UTC</pubDate>
-</item>
-<item>
-<title>Package (freebsd version unknown): freebsd change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; freebsd&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">151fab94aa484f22d743fa4dd5c70288</guid>
-<pubDate>Fri, 03 Oct 2025 12:05:15 UTC</pubDate>
-</item>
-<item>
-<title>Package (homebrew version unknown): homebrew change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; homebrew&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">2b754e3a20572b866a1ad49087d7f465</guid>
-<pubDate>Sat, 04 Oct 2025 06:04:39 UTC</pubDate>
-</item>
-<item>
-<title>Package (slackbuilds version unknown): slackbuilds change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; slackbuilds&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">3155813f1effa6645697b6cc81b5b238</guid>
-<pubDate>Sat, 04 Oct 2025 06:04:39 UTC</pubDate>
-</item>
-<item>
-<title>Package (homebrew version unknown): homebrew change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; homebrew&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">f83e46e2dda8da751c15b8a091d9b3db</guid>
-<pubDate>Sun, 05 Oct 2025 18:04:23 UTC</pubDate>
-</item>
-<item>
-<title>Package (tur version unknown): tur change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; tur&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">f9fc3fb28a6d2830a7b68501d26a3305</guid>
-<pubDate>Sun, 05 Oct 2025 18:04:23 UTC</pubDate>
-</item>
-<item>
-<title>Package (nix_stable_22_11 version unknown): nix_stable_22_11 change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; nix_stable_22_11&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Removal&#x3C;/div&#x3E;</description>
-<category>Security Tools/Deprecated</category>
-<guid isPermaLink="false">e95324edd4a86547947a16c84eee35c8</guid>
-<pubDate>Fri, 10 Oct 2025 00:11:28 UTC</pubDate>
-</item>
-<item>
-<title>Package (community version unknown): archlinuxarm_aarch64/community change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; archlinuxarm_aarch64/community&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Removal&#x3C;/div&#x3E;</description>
-<category>Security Tools/Deprecated</category>
-<guid isPermaLink="false">c95ab51122a6b70d3170a7764387b990</guid>
-<pubDate>Fri, 17 Oct 2025 18:03:59 UTC</pubDate>
-</item>
-<item>
-<title>Package (main version unknown): debian_unstable/sid/main change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; debian_unstable/sid/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">1e6b406fe455a3cc3bb9719186702593</guid>
-<pubDate>Sun, 26 Oct 2025 06:04:47 UTC</pubDate>
-</item>
-<item>
-<title>Package (main version unknown): devuan_unstable/unstable/main change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; devuan_unstable/unstable/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">503da24cd141a2710ae4b37d2d85d52d</guid>
-<pubDate>Sun, 26 Oct 2025 06:04:47 UTC</pubDate>
-</item>
-<item>
-<title>Package (main version unknown): debian_experimental/experimental/main change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; debian_experimental/experimental/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Removal&#x3C;/div&#x3E;</description>
-<category>Security Tools/Deprecated</category>
-<guid isPermaLink="false">d89864c3bca76fe9e0a18066581daf48</guid>
-<pubDate>Sun, 26 Oct 2025 06:04:47 UTC</pubDate>
-</item>
-<item>
-<title>Package (extra version unknown): archlinuxarm_aarch64/extra change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; archlinuxarm_aarch64/extra&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Removal&#x3C;/div&#x3E;</description>
-<category>Security Tools/Deprecated</category>
-<guid isPermaLink="false">64542476790498cb8c33ae63837cf967</guid>
-<pubDate>Mon, 27 Oct 2025 18:04:53 UTC</pubDate>
-</item>
-<item>
-<title>Package (solus version unknown): solus change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; solus&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">8050fd13ea6d65310ed79bdf3f6e390e</guid>
-<pubDate>Wed, 29 Oct 2025 00:11:36 UTC</pubDate>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; fedora_43/release&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; New Package&#x3C;/div&#x3E;</description>
+<category>Security Tools/New Release</category>
+<guid isPermaLink="false">01cf14b7a13d62299521284401107bb2</guid>
+<pubDate>Wed, 29 Oct 2025 18:05:00 UTC</pubDate>
 </item>
 <item>
 <title>Package (opensuse_security_tumbleweed version unknown): opensuse_security_tumbleweed change</title>
@@ -184,92 +40,12 @@
 <pubDate>Wed, 29 Oct 2025 06:05:05 UTC</pubDate>
 </item>
 <item>
-<title>Package (release version unknown): fedora_43/release change</title>
+<title>Package (solus version unknown): solus change</title>
 <link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; fedora_43/release&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; New Package&#x3C;/div&#x3E;</description>
-<category>Security Tools/New Release</category>
-<guid isPermaLink="false">01cf14b7a13d62299521284401107bb2</guid>
-<pubDate>Wed, 29 Oct 2025 18:05:00 UTC</pubDate>
-</item>
-<item>
-<title>Package (development version unknown): fedora_rawhide/development change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; fedora_rawhide/development&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; solus&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
 <category>Security Tools/Update</category>
-<guid isPermaLink="false">3997336f4e932edbace293c2a4a9fa9e</guid>
-<pubDate>Thu, 30 Oct 2025 12:05:28 UTC</pubDate>
-</item>
-<item>
-<title>Package (main version unknown): debian_14/forky/main change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; debian_14/forky/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">7ad0ee6edf861daf0aec7182ba704684</guid>
-<pubDate>Fri, 31 Oct 2025 06:04:55 UTC</pubDate>
-</item>
-<item>
-<title>Package (pkgsrc_2025_2 version unknown): pkgsrc_2025_2 change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; pkgsrc_2025_2&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; New Package&#x3C;/div&#x3E;</description>
-<category>Security Tools/New Release</category>
-<guid isPermaLink="false">5fb4d28f5dd948f581c7c02efbd487dd</guid>
-<pubDate>Thu, 06 Nov 2025 00:11:12 UTC</pubDate>
-</item>
-<item>
-<title>Package (pkgsrc_2025_3 version unknown): pkgsrc_2025_3 change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; pkgsrc_2025_3&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; New Package&#x3C;/div&#x3E;</description>
-<category>Security Tools/New Release</category>
-<guid isPermaLink="false">9cad36f7bdb07f4f9fa1b19f2318842b</guid>
-<pubDate>Thu, 06 Nov 2025 00:11:12 UTC</pubDate>
-</item>
-<item>
-<title>Package (freebsd version unknown): freebsd change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; freebsd&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">66822390caa03e3342c44e1f014f5f76</guid>
-<pubDate>Tue, 11 Nov 2025 18:04:44 UTC</pubDate>
-</item>
-<item>
-<title>Package (world version unknown): artix/world change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; artix/world&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; New Package&#x3C;/div&#x3E;</description>
-<category>Security Tools/New Release</category>
-<guid isPermaLink="false">41ffd561b0bf2b252d687cb9d6ad83a0</guid>
-<pubDate>Wed, 19 Nov 2025 12:05:12 UTC</pubDate>
-</item>
-<item>
-<title>Package (main version unknown): kali_rolling/main change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; kali_rolling/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">c69f2119a6cf1f40e60be3422bbb90d5</guid>
-<pubDate>Thu, 20 Nov 2025 06:05:02 UTC</pubDate>
-</item>
-<item>
-<title>Package (universe version unknown): ubuntu_26_04/resolute/universe change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; ubuntu_26_04/resolute/universe&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; New Package&#x3C;/div&#x3E;</description>
-<category>Security Tools/New Release</category>
-<guid isPermaLink="false">b55c00bc7f3b7129e7198dd2ce771f95</guid>
-<pubDate>Thu, 20 Nov 2025 18:05:03 UTC</pubDate>
-</item>
-<item>
-<title>Package (main version unknown): parrot/parrot-updates/main change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; parrot/parrot-updates/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">c43222fb32560e87c70c7e267a015924</guid>
-<pubDate>Mon, 24 Nov 2025 06:05:07 UTC</pubDate>
-</item>
-<item>
-<title>Package (main version unknown): parrot/parrot/main change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; parrot/parrot/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">e2b83562ec8cbebf6f1d3040ed3c2877</guid>
-<pubDate>Mon, 24 Nov 2025 06:05:07 UTC</pubDate>
+<guid isPermaLink="false">8050fd13ea6d65310ed79bdf3f6e390e</guid>
+<pubDate>Wed, 29 Oct 2025 00:11:36 UTC</pubDate>
 </item>
 <item>
 <title>Package (backbox_8 version unknown): backbox_8 change</title>
@@ -286,6 +62,70 @@
 <category>Security Tools/New Release</category>
 <guid isPermaLink="false">2e0875696e3276a33efe48ce65c18a50</guid>
 <pubDate>Wed, 26 Nov 2025 18:04:59 UTC</pubDate>
+</item>
+<item>
+<title>Changes detected in package: gnuguix</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; gnuguix&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;em&#x3E;This change affects the Hashcat password recovery tool. Security professionals should review for potential impact on security assessments.&#x3C;/em&#x3E;&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">e430dbc5c0487dcff2eedbe77ac42bf3</guid>
+<pubDate>Wed, 24 Sep 2025 06:05:12 UTC</pubDate>
+</item>
+<item>
+<title>Package (pkgsrc_2025_4 version unknown): pkgsrc_2025_4 change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; pkgsrc_2025_4&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; New Package&#x3C;/div&#x3E;</description>
+<category>Security Tools/New Release</category>
+<guid isPermaLink="false">a3bb64b4d16089df27ab01751d20f54a</guid>
+<pubDate>Wed, 24 Dec 2025 06:05:05 UTC</pubDate>
+</item>
+<item>
+<title>Package (pkgsrc_2025_2 version unknown): pkgsrc_2025_2 change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; pkgsrc_2025_2&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Removal&#x3C;/div&#x3E;</description>
+<category>Security Tools/Deprecated</category>
+<guid isPermaLink="false">e4c3765e9b0855ab76f7cd6bf27356e1</guid>
+<pubDate>Wed, 24 Dec 2025 06:05:05 UTC</pubDate>
+</item>
+<item>
+<title>Package (world version unknown): artix/world change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; artix/world&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; New Package&#x3C;/div&#x3E;</description>
+<category>Security Tools/New Release</category>
+<guid isPermaLink="false">41ffd561b0bf2b252d687cb9d6ad83a0</guid>
+<pubDate>Wed, 19 Nov 2025 12:05:12 UTC</pubDate>
+</item>
+<item>
+<title>Package (main version unknown): raspbian_testing/main change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; raspbian_testing/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">84998cc0c998974e939f86908498774b</guid>
+<pubDate>Wed, 14 Jan 2026 00:12:27 UTC</pubDate>
+</item>
+<item>
+<title>Package (nix_stable_25_11 version unknown): nix_stable_25_11 change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; nix_stable_25_11&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; New Package&#x3C;/div&#x3E;</description>
+<category>Security Tools/New Release</category>
+<guid isPermaLink="false">51a624e3fe6c39e492c78d6ecfdb69bf</guid>
+<pubDate>Wed, 10 Dec 2025 00:11:47 UTC</pubDate>
+</item>
+<item>
+<title>Package (nix_unstable version unknown): nix_unstable change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; nix_unstable&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; New Package&#x3C;/div&#x3E;</description>
+<category>Security Tools/New Release</category>
+<guid isPermaLink="false">b6cfb9001423ba877fef6d14b4b7ad3b</guid>
+<pubDate>Tue, 20 Jan 2026 00:11:49 UTC</pubDate>
+</item>
+<item>
+<title>Package (freebsd version unknown): freebsd change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; freebsd&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">66822390caa03e3342c44e1f014f5f76</guid>
+<pubDate>Tue, 11 Nov 2025 18:04:44 UTC</pubDate>
 </item>
 <item>
 <title>Package (aosc version unknown): aosc change</title>
@@ -312,70 +152,6 @@
 <pubDate>Tue, 09 Dec 2025 06:04:56 UTC</pubDate>
 </item>
 <item>
-<title>Package (nix_stable_25_11 version unknown): nix_stable_25_11 change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; nix_stable_25_11&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; New Package&#x3C;/div&#x3E;</description>
-<category>Security Tools/New Release</category>
-<guid isPermaLink="false">51a624e3fe6c39e492c78d6ecfdb69bf</guid>
-<pubDate>Wed, 10 Dec 2025 00:11:47 UTC</pubDate>
-</item>
-<item>
-<title>Package (freebsd version unknown): freebsd change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; freebsd&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">58c5a2570c247b4446ed7afef3f1c64e</guid>
-<pubDate>Thu, 18 Dec 2025 12:05:34 UTC</pubDate>
-</item>
-<item>
-<title>Package (pkgsrc_2025_4 version unknown): pkgsrc_2025_4 change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; pkgsrc_2025_4&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; New Package&#x3C;/div&#x3E;</description>
-<category>Security Tools/New Release</category>
-<guid isPermaLink="false">a3bb64b4d16089df27ab01751d20f54a</guid>
-<pubDate>Wed, 24 Dec 2025 06:05:05 UTC</pubDate>
-</item>
-<item>
-<title>Package (pkgsrc_2025_2 version unknown): pkgsrc_2025_2 change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; pkgsrc_2025_2&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Removal&#x3C;/div&#x3E;</description>
-<category>Security Tools/Deprecated</category>
-<guid isPermaLink="false">e4c3765e9b0855ab76f7cd6bf27356e1</guid>
-<pubDate>Wed, 24 Dec 2025 06:05:05 UTC</pubDate>
-</item>
-<item>
-<title>Package (extra version unknown): arch/extra change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; arch/extra&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">f085c2ea2e6dd751a642abc0714a8361</guid>
-<pubDate>Fri, 02 Jan 2026 06:05:10 UTC</pubDate>
-</item>
-<item>
-<title>Package (extra version unknown): manjaro_unstable/extra change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; manjaro_unstable/extra&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">bf5c1b31ff82906417fd10feb9b24e13</guid>
-<pubDate>Sat, 03 Jan 2026 06:04:57 UTC</pubDate>
-</item>
-<item>
-<title>Package (extra version unknown): manjaro_testing/extra change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; manjaro_testing/extra&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">27b6e50bb88df8cd54702b450f6b4986</guid>
-<pubDate>Sun, 04 Jan 2026 06:04:56 UTC</pubDate>
-</item>
-<item>
-<title>Package (extra version unknown): manjaro_stable/extra change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; manjaro_stable/extra&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">ad00c929af588901af3e5ea7759eed27</guid>
-<pubDate>Mon, 05 Jan 2026 06:07:07 UTC</pubDate>
-</item>
-<item>
 <title>Package (extra version unknown): parabola/extra change</title>
 <link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
 <description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; parabola/extra&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
@@ -384,12 +160,68 @@
 <pubDate>Tue, 06 Jan 2026 06:05:08 UTC</pubDate>
 </item>
 <item>
-<title>Package (main version unknown): raspbian_testing/main change</title>
+<title>Package (development version unknown): fedora_rawhide/development change</title>
 <link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; raspbian_testing/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; fedora_rawhide/development&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
 <category>Security Tools/Update</category>
-<guid isPermaLink="false">84998cc0c998974e939f86908498774b</guid>
-<pubDate>Wed, 14 Jan 2026 00:12:27 UTC</pubDate>
+<guid isPermaLink="false">3997336f4e932edbace293c2a4a9fa9e</guid>
+<pubDate>Thu, 30 Oct 2025 12:05:28 UTC</pubDate>
+</item>
+<item>
+<title>Package (release version unknown): fedora_37/release change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; fedora_37/release&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Removal&#x3C;/div&#x3E;</description>
+<category>Security Tools/Deprecated</category>
+<guid isPermaLink="false">2b7854178279c0abd78a3a644c43cb61</guid>
+<pubDate>Thu, 22 Jan 2026 18:05:15 UTC</pubDate>
+</item>
+<item>
+<title>Package (nix_stable_23_05 version unknown): nix_stable_23_05 change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; nix_stable_23_05&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Removal&#x3C;/div&#x3E;</description>
+<category>Security Tools/Deprecated</category>
+<guid isPermaLink="false">8ffdffdccc33a0d23214ca42a258f541</guid>
+<pubDate>Thu, 22 Jan 2026 18:05:15 UTC</pubDate>
+</item>
+<item>
+<title>Package (release version unknown): openmandriva_4_3/unsupported/release change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; openmandriva_4_3/unsupported/release&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Removal&#x3C;/div&#x3E;</description>
+<category>Security Tools/Deprecated</category>
+<guid isPermaLink="false">e55a4f790e8b285bd4ed6dbaec25f328</guid>
+<pubDate>Thu, 22 Jan 2026 18:05:15 UTC</pubDate>
+</item>
+<item>
+<title>Package (oss version unknown): opensuse_leap_15_4/main/oss change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; opensuse_leap_15_4/main/oss&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Removal&#x3C;/div&#x3E;</description>
+<category>Security Tools/Deprecated</category>
+<guid isPermaLink="false">db04546f531faade87623beb37897b8f</guid>
+<pubDate>Thu, 22 Jan 2026 18:05:15 UTC</pubDate>
+</item>
+<item>
+<title>Package (universe version unknown): ubuntu_26_04/resolute/universe change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; ubuntu_26_04/resolute/universe&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; New Package&#x3C;/div&#x3E;</description>
+<category>Security Tools/New Release</category>
+<guid isPermaLink="false">b55c00bc7f3b7129e7198dd2ce771f95</guid>
+<pubDate>Thu, 20 Nov 2025 18:05:03 UTC</pubDate>
+</item>
+<item>
+<title>Package (main version unknown): kali_rolling/main change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; kali_rolling/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">c69f2119a6cf1f40e60be3422bbb90d5</guid>
+<pubDate>Thu, 20 Nov 2025 06:05:02 UTC</pubDate>
+</item>
+<item>
+<title>Package (freebsd version unknown): freebsd change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; freebsd&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">58c5a2570c247b4446ed7afef3f1c64e</guid>
+<pubDate>Thu, 18 Dec 2025 12:05:34 UTC</pubDate>
 </item>
 <item>
 <title>Package (world version unknown): artix/world change</title>
@@ -408,12 +240,188 @@
 <pubDate>Thu, 15 Jan 2026 00:12:28 UTC</pubDate>
 </item>
 <item>
-<title>Package (nix_unstable version unknown): nix_unstable change</title>
+<title>Package (pkgsrc_2025_2 version unknown): pkgsrc_2025_2 change</title>
 <link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; nix_unstable&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; New Package&#x3C;/div&#x3E;</description>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; pkgsrc_2025_2&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; New Package&#x3C;/div&#x3E;</description>
 <category>Security Tools/New Release</category>
-<guid isPermaLink="false">b6cfb9001423ba877fef6d14b4b7ad3b</guid>
-<pubDate>Tue, 20 Jan 2026 00:11:49 UTC</pubDate>
+<guid isPermaLink="false">5fb4d28f5dd948f581c7c02efbd487dd</guid>
+<pubDate>Thu, 06 Nov 2025 00:11:12 UTC</pubDate>
+</item>
+<item>
+<title>Package (pkgsrc_2025_3 version unknown): pkgsrc_2025_3 change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; pkgsrc_2025_3&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; New Package&#x3C;/div&#x3E;</description>
+<category>Security Tools/New Release</category>
+<guid isPermaLink="false">9cad36f7bdb07f4f9fa1b19f2318842b</guid>
+<pubDate>Thu, 06 Nov 2025 00:11:12 UTC</pubDate>
+</item>
+<item>
+<title>Package (main version unknown): debian_experimental/experimental/main change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; debian_experimental/experimental/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">488c9985230af8a28091d3afcdc6820c</guid>
+<pubDate>Thu, 02 Oct 2025 12:05:09 UTC</pubDate>
+</item>
+<item>
+<title>Package (main version unknown): debian_unstable/sid/main change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; debian_unstable/sid/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">1e6b406fe455a3cc3bb9719186702593</guid>
+<pubDate>Sun, 26 Oct 2025 06:04:47 UTC</pubDate>
+</item>
+<item>
+<title>Package (main version unknown): devuan_unstable/unstable/main change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; devuan_unstable/unstable/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">503da24cd141a2710ae4b37d2d85d52d</guid>
+<pubDate>Sun, 26 Oct 2025 06:04:47 UTC</pubDate>
+</item>
+<item>
+<title>Package (main version unknown): debian_experimental/experimental/main change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; debian_experimental/experimental/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Removal&#x3C;/div&#x3E;</description>
+<category>Security Tools/Deprecated</category>
+<guid isPermaLink="false">d89864c3bca76fe9e0a18066581daf48</guid>
+<pubDate>Sun, 26 Oct 2025 06:04:47 UTC</pubDate>
+</item>
+<item>
+<title>Package (homebrew version unknown): homebrew change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; homebrew&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">f83e46e2dda8da751c15b8a091d9b3db</guid>
+<pubDate>Sun, 05 Oct 2025 18:04:23 UTC</pubDate>
+</item>
+<item>
+<title>Package (tur version unknown): tur change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; tur&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">f9fc3fb28a6d2830a7b68501d26a3305</guid>
+<pubDate>Sun, 05 Oct 2025 18:04:23 UTC</pubDate>
+</item>
+<item>
+<title>Package (extra version unknown): manjaro_testing/extra change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; manjaro_testing/extra&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">27b6e50bb88df8cd54702b450f6b4986</guid>
+<pubDate>Sun, 04 Jan 2026 06:04:56 UTC</pubDate>
+</item>
+<item>
+<title>Changes detected in package: chocolatey</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; chocolatey&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;em&#x3E;This change affects the Hashcat password recovery tool. Security professionals should review for potential impact on security assessments.&#x3C;/em&#x3E;&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">4dcd96dd81c11197f556cd171f124778</guid>
+<pubDate>Sat, 27 Sep 2025 00:10:04 UTC</pubDate>
+</item>
+<item>
+<title>Changes detected in package: homebrew</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; homebrew&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;em&#x3E;This change affects the Hashcat password recovery tool. Security professionals should review for potential impact on security assessments.&#x3C;/em&#x3E;&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">20a5622a706e1953c40913c0fcdb407e</guid>
+<pubDate>Sat, 27 Sep 2025 00:10:04 UTC</pubDate>
+</item>
+<item>
+<title>Package (homebrew version unknown): homebrew change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; homebrew&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">2b754e3a20572b866a1ad49087d7f465</guid>
+<pubDate>Sat, 04 Oct 2025 06:04:39 UTC</pubDate>
+</item>
+<item>
+<title>Package (slackbuilds version unknown): slackbuilds change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; slackbuilds&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">3155813f1effa6645697b6cc81b5b238</guid>
+<pubDate>Sat, 04 Oct 2025 06:04:39 UTC</pubDate>
+</item>
+<item>
+<title>Package (extra version unknown): manjaro_unstable/extra change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; manjaro_unstable/extra&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">bf5c1b31ff82906417fd10feb9b24e13</guid>
+<pubDate>Sat, 03 Jan 2026 06:04:57 UTC</pubDate>
+</item>
+<item>
+<title>Changes detected in package: homebrew</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; homebrew&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;em&#x3E;This change affects the Hashcat password recovery tool. Security professionals should review for potential impact on security assessments.&#x3C;/em&#x3E;&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">7c8a5a2b740f94d8a40f2ba7fa88dfd9</guid>
+<pubDate>Mon, 29 Sep 2025 06:05:21 UTC</pubDate>
+</item>
+<item>
+<title>Changes detected in package: kali_rolling/main</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; kali_rolling/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;em&#x3E;This change affects the Hashcat password recovery tool. Security professionals should review for potential impact on security assessments.&#x3C;/em&#x3E;&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">af71d895cd5232a97bda2390f10521bc</guid>
+<pubDate>Mon, 29 Sep 2025 06:05:21 UTC</pubDate>
+</item>
+<item>
+<title>Package (extra version unknown): archlinuxarm_aarch64/extra change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; archlinuxarm_aarch64/extra&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Removal&#x3C;/div&#x3E;</description>
+<category>Security Tools/Deprecated</category>
+<guid isPermaLink="false">64542476790498cb8c33ae63837cf967</guid>
+<pubDate>Mon, 27 Oct 2025 18:04:53 UTC</pubDate>
+</item>
+<item>
+<title>Package (main version unknown): parrot/parrot-updates/main change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; parrot/parrot-updates/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">c43222fb32560e87c70c7e267a015924</guid>
+<pubDate>Mon, 24 Nov 2025 06:05:07 UTC</pubDate>
+</item>
+<item>
+<title>Package (main version unknown): parrot/parrot/main change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; parrot/parrot/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">e2b83562ec8cbebf6f1d3040ed3c2877</guid>
+<pubDate>Mon, 24 Nov 2025 06:05:07 UTC</pubDate>
+</item>
+<item>
+<title>No new changes detected in Hashcat repository</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>The monitor ran at Mon, 22 Sep 2025 17:49:02 UTC and found no new changes.</description>
+<category>Security Tools/Maintenance</category>
+<guid isPermaLink="false">no-changes-item-static-guid</guid>
+<pubDate>Mon, 22 Sep 2025 17:49:02 UTC</pubDate>
+</item>
+<item>
+<title>Package (extra version unknown): manjaro_stable/extra change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; manjaro_stable/extra&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">ad00c929af588901af3e5ea7759eed27</guid>
+<pubDate>Mon, 05 Jan 2026 06:07:07 UTC</pubDate>
+</item>
+<item>
+<title>Package (main version unknown): debian_14/forky/main change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; debian_14/forky/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">7ad0ee6edf861daf0aec7182ba704684</guid>
+<pubDate>Fri, 31 Oct 2025 06:04:55 UTC</pubDate>
+</item>
+<item>
+<title>Package (community version unknown): archlinuxarm_aarch64/community change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; archlinuxarm_aarch64/community&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Removal&#x3C;/div&#x3E;</description>
+<category>Security Tools/Deprecated</category>
+<guid isPermaLink="false">c95ab51122a6b70d3170a7764387b990</guid>
+<pubDate>Fri, 17 Oct 2025 18:03:59 UTC</pubDate>
 </item>
 </channel>
 </rss>
