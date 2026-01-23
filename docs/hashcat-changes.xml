@@ -416,12 +416,12 @@
 <pubDate>Fri, 31 Oct 2025 06:04:55 UTC</pubDate>
 </item>
 <item>
-<title>Package (community version unknown): archlinuxarm_aarch64/community change</title>
+<title>Package (development version unknown): fedora_rawhide/development change</title>
 <link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; archlinuxarm_aarch64/community&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Removal&#x3C;/div&#x3E;</description>
-<category>Security Tools/Deprecated</category>
-<guid isPermaLink="false">c95ab51122a6b70d3170a7764387b990</guid>
-<pubDate>Fri, 17 Oct 2025 18:03:59 UTC</pubDate>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; fedora_rawhide/development&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">089ff96187ceafb143f03b0f181ecac6</guid>
+<pubDate>Fri, 23 Jan 2026 06:05:08 UTC</pubDate>
 </item>
 </channel>
 </rss>
