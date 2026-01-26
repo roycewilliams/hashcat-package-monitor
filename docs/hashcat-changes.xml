@@ -376,6 +376,14 @@
 <pubDate>Mon, 27 Oct 2025 18:04:53 UTC</pubDate>
 </item>
 <item>
+<title>Package (release version unknown): rosa_13/contrib/release change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; rosa_13/contrib/release&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">cecec6c072d252be4c01e476a16ce674</guid>
+<pubDate>Mon, 26 Jan 2026 00:13:16 UTC</pubDate>
+</item>
+<item>
 <title>Package (main version unknown): parrot/parrot-updates/main change</title>
 <link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
 <description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; parrot/parrot-updates/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
@@ -414,14 +422,6 @@
 <category>Security Tools/Update</category>
 <guid isPermaLink="false">7ad0ee6edf861daf0aec7182ba704684</guid>
 <pubDate>Fri, 31 Oct 2025 06:04:55 UTC</pubDate>
-</item>
-<item>
-<title>Package (development version unknown): fedora_rawhide/development change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; fedora_rawhide/development&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">089ff96187ceafb143f03b0f181ecac6</guid>
-<pubDate>Fri, 23 Jan 2026 06:05:08 UTC</pubDate>
 </item>
 </channel>
 </rss>
