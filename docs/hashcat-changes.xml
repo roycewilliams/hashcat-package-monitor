@@ -48,6 +48,14 @@
 <pubDate>Wed, 29 Oct 2025 00:11:36 UTC</pubDate>
 </item>
 <item>
+<title>Package (freebsd version unknown): freebsd change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; freebsd&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">3c4932b4b9aef8c444f96765fcdc7c3a</guid>
+<pubDate>Wed, 28 Jan 2026 12:06:01 UTC</pubDate>
+</item>
+<item>
 <title>Package (backbox_8 version unknown): backbox_8 change</title>
 <link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
 <description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; backbox_8&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; New Package&#x3C;/div&#x3E;</description>
@@ -414,14 +422,6 @@
 <category>Security Tools/Update</category>
 <guid isPermaLink="false">ad00c929af588901af3e5ea7759eed27</guid>
 <pubDate>Mon, 05 Jan 2026 06:07:07 UTC</pubDate>
-</item>
-<item>
-<title>Package (main version unknown): debian_14/forky/main change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; debian_14/forky/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">7ad0ee6edf861daf0aec7182ba704684</guid>
-<pubDate>Fri, 31 Oct 2025 06:04:55 UTC</pubDate>
 </item>
 </channel>
 </rss>
