@@ -104,6 +104,14 @@
 <pubDate>Wed, 19 Nov 2025 12:05:12 UTC</pubDate>
 </item>
 <item>
+<title>Package (main version unknown): debian_14/forky/main change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; debian_14/forky/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Removal&#x3C;/div&#x3E;</description>
+<category>Security Tools/Deprecated</category>
+<guid isPermaLink="false">a64d15212920e16df88863b0735449a6</guid>
+<pubDate>Wed, 18 Feb 2026 18:14:15 UTC</pubDate>
+</item>
+<item>
 <title>Package (main version unknown): raspbian_testing/main change</title>
 <link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
 <description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; raspbian_testing/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
@@ -414,14 +422,6 @@
 <category>Security Tools/Update</category>
 <guid isPermaLink="false">e2b83562ec8cbebf6f1d3040ed3c2877</guid>
 <pubDate>Mon, 24 Nov 2025 06:05:07 UTC</pubDate>
-</item>
-<item>
-<title>No new changes detected in Hashcat repository</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>The monitor ran at Mon, 22 Sep 2025 17:49:02 UTC and found no new changes.</description>
-<category>Security Tools/Maintenance</category>
-<guid isPermaLink="false">no-changes-item-static-guid</guid>
-<pubDate>Mon, 22 Sep 2025 17:49:02 UTC</pubDate>
 </item>
 </channel>
 </rss>
