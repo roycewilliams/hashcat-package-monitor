@@ -136,6 +136,14 @@
 <pubDate>Wed, 10 Dec 2025 00:11:47 UTC</pubDate>
 </item>
 <item>
+<title>Package (src-oss version unknown): opensuse_tumbleweed/src-oss change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; opensuse_tumbleweed/src-oss&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">4d27dc15f5dfb4f2549c0be4006c62f9</guid>
+<pubDate>Wed, 04 Mar 2026 06:12:58 UTC</pubDate>
+</item>
+<item>
 <title>Package (nix_unstable version unknown): nix_unstable change</title>
 <link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
 <description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; nix_unstable&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; New Package&#x3C;/div&#x3E;</description>
@@ -414,14 +422,6 @@
 <category>Security Tools/Update</category>
 <guid isPermaLink="false">cecec6c072d252be4c01e476a16ce674</guid>
 <pubDate>Mon, 26 Jan 2026 00:13:16 UTC</pubDate>
-</item>
-<item>
-<title>Package (main version unknown): parrot/parrot-updates/main change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; parrot/parrot-updates/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">c43222fb32560e87c70c7e267a015924</guid>
-<pubDate>Mon, 24 Nov 2025 06:05:07 UTC</pubDate>
 </item>
 </channel>
 </rss>
