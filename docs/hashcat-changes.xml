@@ -144,6 +144,14 @@
 <pubDate>Wed, 04 Mar 2026 06:12:58 UTC</pubDate>
 </item>
 <item>
+<title>Package (homebrew version unknown): homebrew change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; homebrew&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">65da498f08e35961aeb0e8b5b4d8df26</guid>
+<pubDate>Tue, 24 Mar 2026 18:18:29 UTC</pubDate>
+</item>
+<item>
 <title>Package (nix_unstable version unknown): nix_unstable change</title>
 <link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
 <description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; nix_unstable&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; New Package&#x3C;/div&#x3E;</description>
@@ -414,14 +422,6 @@
 <category>Security Tools/Deprecated</category>
 <guid isPermaLink="false">64542476790498cb8c33ae63837cf967</guid>
 <pubDate>Mon, 27 Oct 2025 18:04:53 UTC</pubDate>
-</item>
-<item>
-<title>Package (release version unknown): rosa_13/contrib/release change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; rosa_13/contrib/release&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">cecec6c072d252be4c01e476a16ce674</guid>
-<pubDate>Mon, 26 Jan 2026 00:13:16 UTC</pubDate>
 </item>
 </channel>
 </rss>
