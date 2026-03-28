@@ -360,6 +360,22 @@
 <pubDate>Sun, 04 Jan 2026 06:04:56 UTC</pubDate>
 </item>
 <item>
+<title>Package (altsisyphus version unknown): altsisyphus change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; altsisyphus&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">56d3961cec4223a3902b3ecb99a978a0</guid>
+<pubDate>Sat, 28 Mar 2026 06:19:35 UTC</pubDate>
+</item>
+<item>
+<title>Package (homebrew version unknown): homebrew change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; homebrew&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">cbcb73994c110ca31c7006657cc669fa</guid>
+<pubDate>Sat, 28 Mar 2026 06:19:35 UTC</pubDate>
+</item>
+<item>
 <title>Changes detected in package: chocolatey</title>
 <link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
 <description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; chocolatey&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;em&#x3E;This change affects the Hashcat password recovery tool. Security professionals should review for potential impact on security assessments.&#x3C;/em&#x3E;&#x3C;/div&#x3E;</description>
@@ -406,22 +422,6 @@
 <category>Security Tools/Update</category>
 <guid isPermaLink="false">7c8a5a2b740f94d8a40f2ba7fa88dfd9</guid>
 <pubDate>Mon, 29 Sep 2025 06:05:21 UTC</pubDate>
-</item>
-<item>
-<title>Changes detected in package: kali_rolling/main</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; kali_rolling/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;em&#x3E;This change affects the Hashcat password recovery tool. Security professionals should review for potential impact on security assessments.&#x3C;/em&#x3E;&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">af71d895cd5232a97bda2390f10521bc</guid>
-<pubDate>Mon, 29 Sep 2025 06:05:21 UTC</pubDate>
-</item>
-<item>
-<title>Package (extra version unknown): archlinuxarm_aarch64/extra change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; archlinuxarm_aarch64/extra&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Removal&#x3C;/div&#x3E;</description>
-<category>Security Tools/Deprecated</category>
-<guid isPermaLink="false">64542476790498cb8c33ae63837cf967</guid>
-<pubDate>Mon, 27 Oct 2025 18:04:53 UTC</pubDate>
 </item>
 </channel>
 </rss>
