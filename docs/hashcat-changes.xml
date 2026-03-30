@@ -416,12 +416,12 @@
 <pubDate>Sat, 03 Jan 2026 06:04:57 UTC</pubDate>
 </item>
 <item>
-<title>Changes detected in package: homebrew</title>
+<title>Package (main version unknown): debian_14/forky/main change</title>
 <link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; homebrew&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;em&#x3E;This change affects the Hashcat password recovery tool. Security professionals should review for potential impact on security assessments.&#x3C;/em&#x3E;&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">7c8a5a2b740f94d8a40f2ba7fa88dfd9</guid>
-<pubDate>Mon, 29 Sep 2025 06:05:21 UTC</pubDate>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; debian_14/forky/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; New Package&#x3C;/div&#x3E;</description>
+<category>Security Tools/New Release</category>
+<guid isPermaLink="false">475cdd18ec8c4642bf13744d8fe44167</guid>
+<pubDate>Mon, 30 Mar 2026 18:17:49 UTC</pubDate>
 </item>
 </channel>
 </rss>
