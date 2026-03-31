@@ -144,6 +144,22 @@
 <pubDate>Wed, 04 Mar 2026 06:12:58 UTC</pubDate>
 </item>
 <item>
+<title>Package (pkgsrc_2026_1 version unknown): pkgsrc_2026_1 change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; pkgsrc_2026_1&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; New Package&#x3C;/div&#x3E;</description>
+<category>Security Tools/New Release</category>
+<guid isPermaLink="false">5d650f557adb5be7e297ffa13508fc1e</guid>
+<pubDate>Tue, 31 Mar 2026 00:18:42 UTC</pubDate>
+</item>
+<item>
+<title>Package (pkgsrc_2025_3 version unknown): pkgsrc_2025_3 change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; pkgsrc_2025_3&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Removal&#x3C;/div&#x3E;</description>
+<category>Security Tools/Deprecated</category>
+<guid isPermaLink="false">51921bc06436afaf7fd78f45bbaa98ff</guid>
+<pubDate>Tue, 31 Mar 2026 00:18:42 UTC</pubDate>
+</item>
+<item>
 <title>Package (homebrew version unknown): homebrew change</title>
 <link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
 <description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; homebrew&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
@@ -406,22 +422,6 @@
 <category>Security Tools/Update</category>
 <guid isPermaLink="false">3155813f1effa6645697b6cc81b5b238</guid>
 <pubDate>Sat, 04 Oct 2025 06:04:39 UTC</pubDate>
-</item>
-<item>
-<title>Package (extra version unknown): manjaro_unstable/extra change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; manjaro_unstable/extra&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">bf5c1b31ff82906417fd10feb9b24e13</guid>
-<pubDate>Sat, 03 Jan 2026 06:04:57 UTC</pubDate>
-</item>
-<item>
-<title>Package (main version unknown): debian_14/forky/main change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; debian_14/forky/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; New Package&#x3C;/div&#x3E;</description>
-<category>Security Tools/New Release</category>
-<guid isPermaLink="false">475cdd18ec8c4642bf13744d8fe44167</guid>
-<pubDate>Mon, 30 Mar 2026 18:17:49 UTC</pubDate>
 </item>
 </channel>
 </rss>
