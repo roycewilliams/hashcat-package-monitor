@@ -368,6 +368,22 @@
 <pubDate>Sun, 26 Oct 2025 06:04:47 UTC</pubDate>
 </item>
 <item>
+<title>Package (opensuse_security_tumbleweed version unknown): opensuse_security_tumbleweed change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; opensuse_security_tumbleweed&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">dcadb6dffd264741605674f7f5ca672b</guid>
+<pubDate>Sun, 19 Apr 2026 06:33:34 UTC</pubDate>
+</item>
+<item>
+<title>Package (spack version unknown): spack change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; spack&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">6daa8c5b53691dd48ab6e34e78eb1b07</guid>
+<pubDate>Sun, 19 Apr 2026 06:33:34 UTC</pubDate>
+</item>
+<item>
 <title>Package (homebrew version unknown): homebrew change</title>
 <link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
 <description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; homebrew&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
@@ -406,22 +422,6 @@
 <category>Security Tools/Update</category>
 <guid isPermaLink="false">cbcb73994c110ca31c7006657cc669fa</guid>
 <pubDate>Sat, 28 Mar 2026 06:19:35 UTC</pubDate>
-</item>
-<item>
-<title>Changes detected in package: chocolatey</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; chocolatey&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;em&#x3E;This change affects the Hashcat password recovery tool. Security professionals should review for potential impact on security assessments.&#x3C;/em&#x3E;&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">4dcd96dd81c11197f556cd171f124778</guid>
-<pubDate>Sat, 27 Sep 2025 00:10:04 UTC</pubDate>
-</item>
-<item>
-<title>Changes detected in package: homebrew</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; homebrew&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;em&#x3E;This change affects the Hashcat password recovery tool. Security professionals should review for potential impact on security assessments.&#x3C;/em&#x3E;&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">20a5622a706e1953c40913c0fcdb407e</guid>
-<pubDate>Sat, 27 Sep 2025 00:10:04 UTC</pubDate>
 </item>
 </channel>
 </rss>

@@ -260,9 +260,9 @@
       "version" : "6.2.6"
    },
    "opensuse_security_tumbleweed" : {
-      "origversion" : "7.1.2-2.4",
-      "status" : "newest",
-      "version" : "7.1.2"
+      "origversion" : "6.2.6-29.26",
+      "status" : "legacy",
+      "version" : "6.2.6"
    },
    "opensuse_tumbleweed/src-oss" : {
       "origversion" : "7.1.2-1.2",
@@ -371,8 +371,8 @@
    },
    "spack" : {
       "origversion" : "N/A",
-      "status" : "outdated",
-      "version" : "6.2.6"
+      "status" : "newest",
+      "version" : "7.1.2"
    },
    "t2" : {
       "origversion" : "N/A",
