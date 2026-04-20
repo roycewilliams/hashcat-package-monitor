@@ -80,7 +80,7 @@
       "version" : "6.2.6"
    },
    "debian_14/forky/main" : {
-      "origversion" : "7.1.2+ds1-3",
+      "origversion" : "7.1.2+ds1-4",
       "status" : "newest",
       "version" : "7.1.2"
    },
@@ -260,9 +260,9 @@
       "version" : "6.2.6"
    },
    "opensuse_security_tumbleweed" : {
-      "origversion" : "6.2.6-29.26",
-      "status" : "legacy",
-      "version" : "6.2.6"
+      "origversion" : "7.1.2-2.4",
+      "status" : "newest",
+      "version" : "7.1.2"
    },
    "opensuse_tumbleweed/src-oss" : {
       "origversion" : "7.1.2-1.2",
