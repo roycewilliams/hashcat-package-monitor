@@ -96,6 +96,14 @@
 <pubDate>Wed, 24 Dec 2025 06:05:05 UTC</pubDate>
 </item>
 <item>
+<title>Package (main version unknown): kali_rolling/main change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; kali_rolling/main&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">4c164d130505689b69dcad96126b8aa3</guid>
+<pubDate>Wed, 22 Apr 2026 06:36:36 UTC</pubDate>
+</item>
+<item>
 <title>Package (opensuse_security_tumbleweed version unknown): opensuse_security_tumbleweed change</title>
 <link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
 <description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; opensuse_security_tumbleweed&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
@@ -414,14 +422,6 @@
 <category>Security Tools/Update</category>
 <guid isPermaLink="false">27b6e50bb88df8cd54702b450f6b4986</guid>
 <pubDate>Sun, 04 Jan 2026 06:04:56 UTC</pubDate>
-</item>
-<item>
-<title>Package (altsisyphus version unknown): altsisyphus change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; altsisyphus&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">56d3961cec4223a3902b3ecb99a978a0</guid>
-<pubDate>Sat, 28 Mar 2026 06:19:35 UTC</pubDate>
 </item>
 </channel>
 </rss>
