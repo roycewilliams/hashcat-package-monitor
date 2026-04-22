@@ -96,6 +96,14 @@
 <pubDate>Wed, 24 Dec 2025 06:05:05 UTC</pubDate>
 </item>
 <item>
+<title>Package (opensuse_security_tumbleweed version unknown): opensuse_security_tumbleweed change</title>
+<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
+<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; opensuse_security_tumbleweed&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
+<category>Security Tools/Update</category>
+<guid isPermaLink="false">8d4ee5a6693e0ad6c2f42defd0f8d22c</guid>
+<pubDate>Wed, 22 Apr 2026 00:20:15 UTC</pubDate>
+</item>
+<item>
 <title>Package (world version unknown): artix/world change</title>
 <link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
 <description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; artix/world&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; New Package&#x3C;/div&#x3E;</description>
@@ -413,14 +421,6 @@
 <description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; altsisyphus&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
 <category>Security Tools/Update</category>
 <guid isPermaLink="false">56d3961cec4223a3902b3ecb99a978a0</guid>
-<pubDate>Sat, 28 Mar 2026 06:19:35 UTC</pubDate>
-</item>
-<item>
-<title>Package (homebrew version unknown): homebrew change</title>
-<link>https://github.com/roycewilliams/hashcat-package-monitor/actions</link>
-<description>&#x3C;div&#x3E;&#x3C;strong&#x3E;Package:&#x3C;/strong&#x3E; homebrew&#x3C;/div&#x3E;&#x3C;div&#x3E;&#x3C;strong&#x3E;Change Type:&#x3C;/strong&#x3E; Package Update&#x3C;/div&#x3E;</description>
-<category>Security Tools/Update</category>
-<guid isPermaLink="false">cbcb73994c110ca31c7006657cc669fa</guid>
 <pubDate>Sat, 28 Mar 2026 06:19:35 UTC</pubDate>
 </item>
 </channel>
